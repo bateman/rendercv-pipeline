@@ -23,7 +23,7 @@ jobs:
           pip install -r requirements.txt
       - name: Install pdflatex with biber
         run: |
-          sudo apt-get install texlive-latex-base texlive-latex-extra texlive-latex-recommended texlive-bibtex-extra texlive-fonts-extra biber -y
+          sudo apt-get install texlive-latex-base texlive-latex-extra texlive-latex-recommended texlive-pictures texlive-bibtex-extra texlive-fonts-extra biber -y
       - name: Install PDFtk
         run: |
           sudo apt-get install pdftk -y
