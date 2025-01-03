@@ -32,6 +32,7 @@ jobs:
             lastpage
             changepage
             paracol
+            needspace
       - name: Install PDFtk
         run: |
           sudo apt-get install pdftk -y
