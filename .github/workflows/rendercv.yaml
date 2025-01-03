@@ -29,6 +29,7 @@ jobs:
             enumitem
             etoolbox
             eso-pic
+            lastpage
       - name: Install PDFtk
         run: |
           sudo apt-get install pdftk -y
