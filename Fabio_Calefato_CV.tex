@@ -34,7 +34,6 @@
 \usepackage{ifthen} % for conditional statements
 \usepackage{needspace} % for avoiding page brake right after the section title
 \usepackage{iftex} % check if engine is pdflatex, xetex or luatex
-
 % Ensure that generate pdf is machine readable/ATS parsable:
 \ifPDFTeX
     \input{glyphtounicode}
@@ -43,8 +42,8 @@
     \usepackage[utf8]{inputenc}
     \usepackage{lmodern}
 \fi
-
 \usepackage{charter}
+\usepackage{graphicx} % for the profile picture
 
 % Some settings:
 \usepackage[none]{hyphenat}
@@ -141,10 +140,21 @@
         \LenToUnit{\paperwidth-2 cm-0 cm+0.05cm},
         \LenToUnit{\paperheight-1.0 cm}
     ){\vtop{{\null}\makebox[0pt][c]{
-        \small\color{gray}\textit{Updated$:$ January 2025}\hspace{\widthof{Updated$:$ January 2025}}
+        \small\color{gray}\textit{Updated$:$ Jan 2025}\hspace{\widthof{Updated$:$ Jan 2025}}
     }}}%
   }%
 }%
+
+\newenvironment{twocolheadercontainer}[2][]{
+    \onecolentry
+    \def\secondColumn{#2}
+    \setcolumnwidth{\fill, 0.2\linewidth}
+    \begin{paracol}{2}
+}{
+    \switchcolumn \raggedleft \secondColumn
+    \end{paracol}
+    \endonecolentry
+} % new environment for headers with profile pictures
 
 % save the original href command in a new command:
 \let\hrefWithoutArrow\href
@@ -162,6 +172,7 @@
     \sbox\ANDbox{$|$}
 
     \placelastupdatedtext
+
     \begin{header}
         \fontsize{25 pt}{25 pt}\selectfont Fabio Calefato
 
@@ -195,7 +206,7 @@
         \mbox{\hrefWithoutArrow{https://github.com/bateman}{{\footnotesize\faGithub}\hspace*{0.13cm}bateman}}%
     \end{header}
 
-    \vspace{5 pt - 0.3 cm}
+    \vspace{15 pt - 0.3 cm}
 
 
     \section{Research Experience}
@@ -429,7 +440,7 @@
 
                 \vspace{0.10 cm}
                 
-        Inf. Softw. Technol., vol. 178, doi: \href{https://doi.org/10.1016/J.INFSOF.2024.107608}{10.1016/J.INFSOF.2024.107608}, rank: SJR Q1
+        \textit{Inf. Softw. Technol., vol. 178}, doi: \href{https://doi.org/10.1016/J.INFSOF.2024.107608}{10.1016/J.INFSOF.2024.107608}, rank: SJR Q1
         \end{onecolentry}
         \end{samepage}
 
@@ -449,7 +460,7 @@
 
                 \vspace{0.10 cm}
                 
-        Inf. Softw. Technol., vol. 176, doi: \href{https://doi.org/10.1016/J.INFSOF.2024.107561}{10.1016/J.INFSOF.2024.107561}, rank: SJR Q1
+        \textit{Inf. Softw. Technol., vol. 176}, doi: \href{https://doi.org/10.1016/J.INFSOF.2024.107561}{10.1016/J.INFSOF.2024.107561}, rank: SJR Q1
         \end{onecolentry}
         \end{samepage}
 
@@ -469,7 +480,7 @@
 
                 \vspace{0.10 cm}
                 
-        J. Syst. Softw., vol. 216, doi: \href{https://doi.org/10.1016/J.JSS.2024.112115}{10.1016/J.JSS.2024.112115}, rank: SJR Q1
+        \textit{J. Syst. Softw., vol. 216}, doi: \href{https://doi.org/10.1016/J.JSS.2024.112115}{10.1016/J.JSS.2024.112115}, rank: SJR Q1
         \end{onecolentry}
         \end{samepage}
 
@@ -489,7 +500,7 @@
 
                 \vspace{0.10 cm}
                 
-        ACM/IEEE International Symposium on Empirical Software Engineering and Measurement, ESEM 2023, New Orleans, LA, USA, October 26-27, 2023, doi: \href{https://doi.org/10.1109/ESEM56168.2023.10304796}{10.1109/ESEM56168.2023.10304796}, rank: ICORE A
+        \textit{ACM/IEEE International Symposium on Empirical Software Engineering and Measurement, ESEM 2023, New Orleans, LA, USA, October 26-27, 2023}, doi: \href{https://doi.org/10.1109/ESEM56168.2023.10304796}{10.1109/ESEM56168.2023.10304796}, rank: ICORE A
         \end{onecolentry}
         \end{samepage}
 
@@ -509,7 +520,7 @@
 
                 \vspace{0.10 cm}
                 
-        Proc. ACM Hum. Comput. Interact., vol. 6, no. CSCW1, doi: \href{https://doi.org/10.1145/3512934}{10.1145/3512934}, rank: ICORE A
+        \textit{Proc. ACM Hum. Comput. Interact., vol. 6, no. CSCW1}, doi: \href{https://doi.org/10.1145/3512934}{10.1145/3512934}, rank: ICORE A
         \end{onecolentry}
         \end{samepage}
 
@@ -529,7 +540,7 @@
 
                 \vspace{0.10 cm}
                 
-        ACM Trans. Softw. Eng. Methodol., vol. 31, no. 3, doi: \href{https://doi.org/10.1145/3491039}{10.1145/3491039}, rank: SJR Q1
+        \textit{ACM Trans. Softw. Eng. Methodol., vol. 31, no. 3}, doi: \href{https://doi.org/10.1145/3491039}{10.1145/3491039}, rank: SJR Q1
         \end{onecolentry}
         \end{samepage}
 
@@ -549,7 +560,7 @@
 
                 \vspace{0.10 cm}
                 
-        IEEE Trans. Software Eng., vol. 48, no. 9, doi: \href{https://doi.org/10.1109/TSE.2021.3099532}{10.1109/TSE.2021.3099532}, rank: SJR Q1
+        \textit{IEEE Trans. Software Eng., vol. 48, no. 9}, doi: \href{https://doi.org/10.1109/TSE.2021.3099532}{10.1109/TSE.2021.3099532}, rank: SJR Q1
         \end{onecolentry}
         \end{samepage}
 
@@ -569,7 +580,7 @@
 
                 \vspace{0.10 cm}
                 
-        Empir. Softw. Eng., vol. 27, no. 3, doi: \href{https://doi.org/10.1007/S10664-021-10012-6}{10.1007/S10664-021-10012-6}, rank: SJR Q1
+        \textit{Empir. Softw. Eng., vol. 27, no. 3}, doi: \href{https://doi.org/10.1007/S10664-021-10012-6}{10.1007/S10664-021-10012-6}, rank: SJR Q1
         \end{onecolentry}
         \end{samepage}
 
@@ -589,7 +600,7 @@
 
                 \vspace{0.10 cm}
                 
-        ESEM '22: ACM / IEEE International Symposium on Empirical Software Engineering and Measurement, Helsinki, Finland, September 19 - 23, 2022, doi: \href{https://doi.org/10.1145/3544902.3546636}{10.1145/3544902.3546636}, rank: ICORE A
+        \textit{ESEM '22: ACM / IEEE International Symposium on Empirical Software Engineering and Measurement, Helsinki, Finland, September 19 - 23, 2022}, doi: \href{https://doi.org/10.1145/3544902.3546636}{10.1145/3544902.3546636}, rank: ICORE A
         \end{onecolentry}
         \end{samepage}
 
@@ -609,7 +620,7 @@
 
                 \vspace{0.10 cm}
                 
-        Proceedings of the 1st International Conference on AI Engineering: Software Engineering for AI, CAIN 2022, Pittsburgh, Pennsylvania, May 16-17, 2022, doi: \href{https://doi.org/10.1145/3522664.3528612}{10.1145/3522664.3528612}\end{onecolentry}
+        \textit{Proceedings of the 1st International Conference on AI Engineering: Software Engineering for AI, CAIN 2022, Pittsburgh, Pennsylvania, May 16-17, 2022}, doi: \href{https://doi.org/10.1145/3522664.3528612}{10.1145/3522664.3528612}\end{onecolentry}
         \end{samepage}
 
         \vspace{0.2 cm}
@@ -628,7 +639,7 @@
 
                 \vspace{0.10 cm}
                 
-        ACM Trans. Soc. Comput., vol. 4, no. 4, doi: \href{https://doi.org/10.1145/3493800}{10.1145/3493800}\end{onecolentry}
+        \textit{ACM Trans. Soc. Comput., vol. 4, no. 4}, doi: \href{https://doi.org/10.1145/3493800}{10.1145/3493800}\end{onecolentry}
         \end{samepage}
 
         \vspace{0.2 cm}
@@ -647,7 +658,7 @@
 
                 \vspace{0.10 cm}
                 
-        Empir. Softw. Eng., vol. 26, no. 4, doi: \href{https://doi.org/10.1007/S10664-021-09960-W}{10.1007/S10664-021-09960-W}, rank: SJR Q1
+        \textit{Empir. Softw. Eng., vol. 26, no. 4}, doi: \href{https://doi.org/10.1007/S10664-021-09960-W}{10.1007/S10664-021-09960-W}, rank: SJR Q1
         \end{onecolentry}
         \end{samepage}
 
@@ -667,7 +678,7 @@
 
                 \vspace{0.10 cm}
                 
-        1st IEEE/ACM Workshop on AI Engineering - Software Engineering for AI, WAIN@ICSE 2021, Madrid, Spain, May 30-31, 2021, doi: \href{https://doi.org/10.1109/WAIN52551.2021.00027}{10.1109/WAIN52551.2021.00027}\end{onecolentry}
+        \textit{1st IEEE/ACM Workshop on AI Engineering - Software Engineering for AI, WAIN@ICSE 2021, Madrid, Spain, May 30-31, 2021}, doi: \href{https://doi.org/10.1109/WAIN52551.2021.00027}{10.1109/WAIN52551.2021.00027}\end{onecolentry}
         \end{samepage}
 
         \vspace{0.2 cm}
@@ -686,7 +697,7 @@
 
                 \vspace{0.10 cm}
                 
-        IEEE Softw., vol. 37, no. 3, doi: \href{https://doi.org/10.1109/MS.2020.2968557}{10.1109/MS.2020.2968557}, rank: SJR Q2
+        \textit{IEEE Softw., vol. 37, no. 3}, doi: \href{https://doi.org/10.1109/MS.2020.2968557}{10.1109/MS.2020.2968557}, rank: SJR Q2
         \end{onecolentry}
         \end{samepage}
 
@@ -706,7 +717,7 @@
 
                 \vspace{0.10 cm}
                 
-        MSR '20: 17th International Conference on Mining Software Repositories, Seoul, Republic of Korea, 29-30 June, 2020, doi: \href{https://doi.org/10.1145/3379597.3387446}{10.1145/3379597.3387446}, rank: ICORE A
+        \textit{MSR '20: 17th International Conference on Mining Software Repositories, Seoul, Republic of Korea, 29-30 June, 2020}, doi: \href{https://doi.org/10.1145/3379597.3387446}{10.1145/3379597.3387446}, rank: ICORE A
         \end{onecolentry}
         \end{samepage}
 
@@ -726,7 +737,7 @@
 
                 \vspace{0.10 cm}
                 
-        Inf. Softw. Technol., vol. 114, doi: \href{https://doi.org/10.1016/J.INFSOF.2019.05.012}{10.1016/J.INFSOF.2019.05.012}, rank: SJR Q1
+        \textit{Inf. Softw. Technol., vol. 114}, doi: \href{https://doi.org/10.1016/J.INFSOF.2019.05.012}{10.1016/J.INFSOF.2019.05.012}, rank: SJR Q1
         \end{onecolentry}
         \end{samepage}
 
@@ -746,7 +757,7 @@
 
                 \vspace{0.10 cm}
                 
-        Multim. Tools Appl., vol. 78, no. 23, doi: \href{https://doi.org/10.1007/S11042-019-7735-9}{10.1007/S11042-019-7735-9}, rank: SJR Q2
+        \textit{Multim. Tools Appl., vol. 78, no. 23}, doi: \href{https://doi.org/10.1007/S11042-019-7735-9}{10.1007/S11042-019-7735-9}, rank: SJR Q2
         \end{onecolentry}
         \end{samepage}
 
@@ -766,7 +777,7 @@
 
                 \vspace{0.10 cm}
                 
-        Empir. Softw. Eng., vol. 24, no. 2, doi: \href{https://doi.org/10.1007/S10664-018-9642-5}{10.1007/S10664-018-9642-5}, rank: SJR Q1
+        \textit{Empir. Softw. Eng., vol. 24, no. 2}, doi: \href{https://doi.org/10.1007/S10664-018-9642-5}{10.1007/S10664-018-9642-5}, rank: SJR Q1
         \end{onecolentry}
         \end{samepage}
 
@@ -786,7 +797,7 @@
 
                 \vspace{0.10 cm}
                 
-        IEEE Softw., vol. 36, no. 1, doi: \href{https://doi.org/10.1109/MS.2018.2874668}{10.1109/MS.2018.2874668}, rank: SJR Q2
+        \textit{IEEE Softw., vol. 36, no. 1}, doi: \href{https://doi.org/10.1109/MS.2018.2874668}{10.1109/MS.2018.2874668}, rank: SJR Q2
         \end{onecolentry}
         \end{samepage}
 
@@ -806,7 +817,7 @@
 
                 \vspace{0.10 cm}
                 
-        Inf. Softw. Technol., vol. 94, doi: \href{https://doi.org/10.1016/J.INFSOF.2017.10.009}{10.1016/J.INFSOF.2017.10.009}, rank: SJR Q1
+        \textit{Inf. Softw. Technol., vol. 94}, doi: \href{https://doi.org/10.1016/J.INFSOF.2017.10.009}{10.1016/J.INFSOF.2017.10.009}, rank: SJR Q1
         \end{onecolentry}
         \end{samepage}
 
@@ -826,7 +837,7 @@
 
                 \vspace{0.10 cm}
                 
-        Proc. ACM Hum. Comput. Interact., vol. 2, no. CSCW, doi: \href{https://doi.org/10.1145/3274296}{10.1145/3274296}, rank: ICORE A
+        \textit{Proc. ACM Hum. Comput. Interact., vol. 2, no. CSCW}, doi: \href{https://doi.org/10.1145/3274296}{10.1145/3274296}, rank: ICORE A
         \end{onecolentry}
         \end{samepage}
 
@@ -846,7 +857,7 @@
 
                 \vspace{0.10 cm}
                 
-        Empir. Softw. Eng., vol. 21, no. 3, doi: \href{https://doi.org/10.1007/S10664-015-9372-X}{10.1007/S10664-015-9372-X}, rank: SJR Q1
+        \textit{Empir. Softw. Eng., vol. 21, no. 3}, doi: \href{https://doi.org/10.1007/S10664-015-9372-X}{10.1007/S10664-015-9372-X}, rank: SJR Q1
         \end{onecolentry}
         \end{samepage}
 
@@ -866,7 +877,7 @@
 
                 \vspace{0.10 cm}
                 
-        Proceedings of the 10th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement, ESEM 2016, Ciudad Real, Spain, September 8-9, 2016, doi: \href{https://doi.org/10.1145/2961111.2962585}{10.1145/2961111.2962585}, rank: ICORE A
+        \textit{Proceedings of the 10th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement, ESEM 2016, Ciudad Real, Spain, September 8-9, 2016}, doi: \href{https://doi.org/10.1145/2961111.2962585}{10.1145/2961111.2962585}, rank: ICORE A
         \end{onecolentry}
         \end{samepage}
 
@@ -886,7 +897,7 @@
 
                 \vspace{0.10 cm}
                 
-        Electron. Commer. Res., vol. 15, no. 4, doi: \href{https://doi.org/10.1007/S10660-015-9194-3}{10.1007/S10660-015-9194-3}, rank: SJR Q2
+        \textit{Electron. Commer. Res., vol. 15, no. 4}, doi: \href{https://doi.org/10.1007/S10660-015-9194-3}{10.1007/S10660-015-9194-3}, rank: SJR Q2
         \end{onecolentry}
         \end{samepage}
 
@@ -906,7 +917,7 @@
 
                 \vspace{0.10 cm}
                 
-        IEEE Softw., vol. 32, no. 4, doi: \href{https://doi.org/10.1109/MS.2015.102}{10.1109/MS.2015.102}, rank: SJR Q2
+        \textit{IEEE Softw., vol. 32, no. 4}, doi: \href{https://doi.org/10.1109/MS.2015.102}{10.1109/MS.2015.102}, rank: SJR Q2
         \end{onecolentry}
         \end{samepage}
 
@@ -926,7 +937,7 @@
 
                 \vspace{0.10 cm}
                 
-        12th IEEE/ACM Working Conference on Mining Software Repositories, MSR 2015, Florence, Italy, May 16-17, 2015, doi: \href{https://doi.org/10.1109/MSR.2015.56}{10.1109/MSR.2015.56}, rank: ICORE A
+        \textit{12th IEEE/ACM Working Conference on Mining Software Repositories, MSR 2015, Florence, Italy, May 16-17, 2015}, doi: \href{https://doi.org/10.1109/MSR.2015.56}{10.1109/MSR.2015.56}, rank: ICORE A
         \end{onecolentry}
         \end{samepage}
 
@@ -946,7 +957,7 @@
 
                 \vspace{0.10 cm}
                 
-        IEEE Softw., vol. 31, no. 1, doi: \href{https://doi.org/10.1109/MS.2014.14}{10.1109/MS.2014.14}, rank: SJR Q2
+        \textit{IEEE Softw., vol. 31, no. 1}, doi: \href{https://doi.org/10.1109/MS.2014.14}{10.1109/MS.2014.14}, rank: SJR Q2
         \end{onecolentry}
         \end{samepage}
 
@@ -966,7 +977,7 @@
 
                 \vspace{0.10 cm}
                 
-        2014 ACM-IEEE International Symposium on Empirical Software Engineering and Measurement, ESEM '14, Torino, Italy, September 18-19, 2014, doi: \href{https://doi.org/10.1145/2652524.2652537}{10.1145/2652524.2652537}, rank: ICORE A
+        \textit{2014 ACM-IEEE International Symposium on Empirical Software Engineering and Measurement, ESEM '14, Torino, Italy, September 18-19, 2014}, doi: \href{https://doi.org/10.1145/2652524.2652537}{10.1145/2652524.2652537}, rank: ICORE A
         \end{onecolentry}
         \end{samepage}
 
@@ -986,7 +997,7 @@
 
                 \vspace{0.10 cm}
                 
-        IEEE Softw., vol. 30, no. 2, doi: \href{https://doi.org/10.1109/MS.2013.30}{10.1109/MS.2013.30}, rank: SJR Q2
+        \textit{IEEE Softw., vol. 30, no. 2}, doi: \href{https://doi.org/10.1109/MS.2013.30}{10.1109/MS.2013.30}, rank: SJR Q2
         \end{onecolentry}
         \end{samepage}
 
@@ -1006,7 +1017,7 @@
 
                 \vspace{0.10 cm}
                 
-        Empir. Softw. Eng., vol. 17, no. 6, doi: \href{https://doi.org/10.1007/S10664-011-9179-3}{10.1007/S10664-011-9179-3}, rank: SJR Q1
+        \textit{Empir. Softw. Eng., vol. 17, no. 6}, doi: \href{https://doi.org/10.1007/S10664-011-9179-3}{10.1007/S10664-011-9179-3}, rank: SJR Q1
         \end{onecolentry}
         \end{samepage}
 
@@ -1026,7 +1037,7 @@
 
                 \vspace{0.10 cm}
                 
-        2012 ACM-IEEE International Symposium on Empirical Software Engineering and Measurement, ESEM '12, Lund, Sweden - September 19 - 20, 2012, doi: \href{https://doi.org/10.1145/2372251.2372299}{10.1145/2372251.2372299}, rank: ICORE A
+        \textit{2012 ACM-IEEE International Symposium on Empirical Software Engineering and Measurement, ESEM '12, Lund, Sweden - September 19 - 20, 2012}, doi: \href{https://doi.org/10.1145/2372251.2372299}{10.1145/2372251.2372299}, rank: ICORE A
         \end{onecolentry}
         \end{samepage}
 
@@ -1046,7 +1057,7 @@
 
                 \vspace{0.10 cm}
                 
-        Proceedings of the International Symposium on Empirical Software Engineering and Measurement, ESEM 2010, 16-17 September 2010, Bolzano/Bozen, Italy, doi: \href{https://doi.org/10.1145/1852786.1852818}{10.1145/1852786.1852818}, rank: ICORE A
+        \textit{Proceedings of the International Symposium on Empirical Software Engineering and Measurement, ESEM 2010, 16-17 September 2010, Bolzano/Bozen, Italy}, doi: \href{https://doi.org/10.1145/1852786.1852818}{10.1145/1852786.1852818}, rank: ICORE A
         \end{onecolentry}
         \end{samepage}
 
@@ -1066,7 +1077,7 @@
 
                 \vspace{0.10 cm}
                 
-        Softw. Pract. Exp., vol. 39, no. 15, doi: \href{https://doi.org/10.1002/SPE.937}{10.1002/SPE.937}, rank: SJR Q2
+        \textit{Softw. Pract. Exp., vol. 39, no. 15}, doi: \href{https://doi.org/10.1002/SPE.937}{10.1002/SPE.937}, rank: SJR Q2
         \end{onecolentry}
         \end{samepage}
 
@@ -1086,7 +1097,7 @@
 
                 \vspace{0.10 cm}
                 
-        Proceedings of the First International Symposium on Empirical Software Engineering and Measurement, ESEM 2007, September 20-21, 2007, Madrid, Spain, doi: \href{https://doi.org/10.1109/ESEM.2007.61}{10.1109/ESEM.2007.61}, rank: ICORE A
+        \textit{Proceedings of the First International Symposium on Empirical Software Engineering and Measurement, ESEM 2007, September 20-21, 2007, Madrid, Spain}, doi: \href{https://doi.org/10.1109/ESEM.2007.61}{10.1109/ESEM.2007.61}, rank: ICORE A
         \end{onecolentry}
         \end{samepage}
 
@@ -1590,7 +1601,7 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item \textit{May 2023 - present: The GARR Consortium is the Italian national research and education network, providing high-speed Internet connectivity and advanced services to universities and research institutions.}
+                \item \textit{May 2023 - present}: The GARR Consortium is the Italian national research and education network, providing high-speed Internet connectivity and advanced services to universities and research institutions.
             \end{highlights}
         \end{onecolentry}
 
@@ -1603,7 +1614,7 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item \textit{Mar 2023 - present: Responsibilities include overseeing the development and implementation of internship programs, coordinating with industry partners, mentoring students, ensuring compliance with academic standards, and evaluating the effectiveness of the internship experiences.}
+                \item \textit{Mar 2023 - present}: Responsibilities include overseeing the development and implementation of internship programs, coordinating with industry partners, mentoring students, ensuring compliance with academic standards, and evaluating the effectiveness of the internship experiences.
             \end{highlights}
         \end{onecolentry}
 
@@ -1616,8 +1627,8 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item \textit{Elsevier `Journal of Systems and Software' (JSS), rank: SJR Q1}
-                \item \textit{Springer `Automated Software Engineering' (ASE)}
+                \item Elsevier \textit{Journal of Systems and Software (JSS)}, rank: SJR Q1
+                \item Springer \textit{Automated Software Engineering (ASE)}
             \end{highlights}
         \end{onecolentry}
 
@@ -1630,9 +1641,9 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item \textit{2024 Springer `Empirical Software Engineering’ (EMSE), rank: SJR Q1. Special Issue on ``Software Maintenance and Evolution.'' Co-editor: Sarah Nadi (New York University, Abu Dhabi)}
-                \item \textit{2023: Springer `Empirical Software Engineering’ (EMSE), rank: SJR Q1. Special Issue on \href{https://emsejournal.github.io/special_issues/2023_SI_CHASE.html}{``Cooperative and Human Aspects of Software Engineering''}. Co-editors: Hourieh Khalajzadeh (Deakin University, Australia) and Igor Steinmacher (NAU, USA)}
-                \item \textit{2021: Elsevier `Journal of System and Software’ (JSS), rank: SJR Q1. Special Issue on \href{https://www.sciencedirect.com/journal/journal-of-systems-and-software/special-issue/10V2WHQCGWT}{``Global Software Engineering: Challenges and Solutions.''} Vol. 174, Apr. 2021. Co-editors: Alpana Dubey (Accenture Labs, India), Christof Ebert (Vector Consulting, Germany), Paolo Tell (IT University of Copenhagen, Denmark)}
+                \item \textit{2024}: Springer \textit{Empirical Software Engineering (EMSE)}, rank: SJR Q1. Special Issue on ``Software Maintenance and Evolution.'' Co-editor: Sarah Nadi (New York University, Abu Dhabi)
+                \item \textit{2023}: Springer \textit{Empirical Software Engineering’ (EMSE}), rank: SJR Q1. Special Issue on \href{https://emsejournal.github.io/special_issues/2023_SI_CHASE.html}{``Cooperative and Human Aspects of Software Engineering''}. Co-editors: Hourieh Khalajzadeh (Deakin University, Australia) and Igor Steinmacher (NAU, USA)
+                \item \textit{2021}: Elsevier \textit{Journal of System and Software (JSS)}, rank: SJR Q1. Special Issue on \href{https://www.sciencedirect.com/journal/journal-of-systems-and-software/special-issue/10V2WHQCGWT}{``Global Software Engineering: Challenges and Solutions.''} Vol. 174, Apr. 2021. Co-editors: Alpana Dubey (Accenture Labs, India), Christof Ebert (Vector Consulting, Germany), Paolo Tell (IT University of Copenhagen, Denmark)
             \end{highlights}
         \end{onecolentry}
 
@@ -1645,9 +1656,9 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item \textit{2023 – present: Replicated Computational Results Distinguished Reviewers Board for ACM `Transactions on Software Engineering and Methodology’ (TOSEM), rank: SJR Q1}
-                \item \textit{2020 – 2022: ACM `Transactions on Software Engineering and Methodology’ (TOSEM), rank: SJR Q1}
-                \item \textit{2015 – 2019: Springer ‘Journal of Empirical Software Engineering’ (EMSE, SJR Q1), rank: SJR Q1}
+                \item \textit{2023 – present}: Replicated Computational Results Distinguished Reviewers Board for ACM \textit{Transactions on Software Engineering and Methodology (TOSEM)}, rank: SJR Q1
+                \item \textit{2020 – 2022}: ACM \textit{Transactions on Software Engineering and Methodology (TOSEM)}, rank: SJR Q1
+                \item \textit{2015 – 2019}: Springer \textit{Journal of Empirical Software Engineering (EMSE)}, rank: SJR Q1
             \end{highlights}
         \end{onecolentry}
 
@@ -1660,15 +1671,15 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item \textit{(23) Springer `Journal of Empirical Software Engineering' (EMSE), rank: SJR Q1}
-                \item \textit{(19) IEEE `Transactions on Software Engineering' (TSE), rank: SJR Q1}
-                \item \textit{(16) ACM `Transactions on Software Engineering and Methodology' (TOSEM), rank: SJR Q1}
-                \item \textit{(12) Elsevier `Journal of System and Software' (JSS), rank: SJR Q1}
-                \item \textit{(8) Elsevier `Information and Software Technology' (INFSOF), rank: SJR Q1}
-                \item \textit{(7) Wiley `Journal of Software: Evolution and Process' (JSEP), rank: SJR Q2}
-                \item \textit{(5) IEEE `Software,' rank: SJR Q2}
-                \item \textit{(2) IEEE `Transactions on Affective Computing,' rank: SJR Q1}
-                \item \textit{(1) ACM `Transactions on Internet Technologies' (TOIT), rank: SJR Q1}
+                \item (23) Springer \textit{Journal of Empirical Software Engineering (EMSE)}, rank: SJR Q1
+                \item (19) IEEE \textit{Transactions on Software Engineering (TSE)}, rank: SJR Q1
+                \item (16) ACM \textit{Transactions on Software Engineering and Methodology (TOSEM)}, rank: SJR Q1
+                \item (12) Elsevier \textit{Journal of System and Software (JSS)}, rank: SJR Q1
+                \item (8) Elsevier \textit{Information and Software Technolog (INFSOF)}, rank: SJR Q1
+                \item (7) Wiley \textit{Journal of Software: Evolution and Process (JSEP)}, rank: SJR Q2
+                \item (5) IEEE \textit{Software}, rank: SJR Q2
+                \item (2) IEEE \textit{Transactions on Affective Computing}, rank: SJR Q1
+                \item (1) ACM \textit{Transactions on Internet Technologies (TOIT)}, rank: SJR Q1
             \end{highlights}
         \end{onecolentry}
 
@@ -1686,10 +1697,10 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item \textit{40th Int’l Conf. on Software Maintenance and Evolution (ICSME’24), Flagstaff, AZ, USA, Oct 2024, \href{https://portal.core.edu.au/conf-ranks/676/}{iCORE rank: A}}
-                \item \textit{16th Int’l Conf. on Cooperative and Human Aspects of Software Engineering (CHASE’23), Melbourne, Australia, May 2023}
-                \item \textit{8th Int’l Workshop on Social Software Engineering (SSE’16), Seattle, WA, USA, Nov 14, 2016 – co-located with FSE'16}
-                \item \textit{1st Int’l Workshop on Trust in Virtual Teams: Theory and Tools, San Antonio, TX, USA, Feb 24, 2013 – co-located with CSCW'13}
+                \item \textit{40th Int’l Conf. on Software Maintenance and Evolution (ICSME’24)}, Flagstaff, AZ, USA, Oct 2024, \href{https://portal.core.edu.au/conf-ranks/676/}{iCORE rank: A}
+                \item \textit{16th Int’l Conf. on Cooperative and Human Aspects of Software Engineering (CHASE’23)}, Melbourne, Australia, May 2023
+                \item \textit{8th Int’l Workshop on Social Software Engineering (SSE’16)}, Seattle, WA, USA, Nov 14, 2016 – co-located with \textit{FSE'16}
+                \item \textit{1st Int’l Workshop on Trust in Virtual Teams: Theory and Tools}, San Antonio, TX, USA, Feb 24, 2013 – co-located with \textit{CSCW'13}
             \end{highlights}
         \end{onecolentry}
 
@@ -1702,7 +1713,7 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item \textit{14th Int'l Conf. on Global Software Engineering (ICGSE'19), Montreal, Canada, 25-26 May 2018, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}}
+                \item \textit{14th Int'l Conf. on Global Software Engineering (ICGSE'19)}, Montreal, Canada, 25-26 May 2018, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
             \end{highlights}
         \end{onecolentry}
 
@@ -1715,7 +1726,7 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item \textit{Int'l Conf. on Global Software Engineering (ICGSE), 2019-2022, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}}
+                \item \textit{Int'l Conf. on Global Software Engineering (ICGSE)}, 2019-2022, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
             \end{highlights}
         \end{onecolentry}
 
@@ -1728,7 +1739,7 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item \textit{43rd Int’l Conf. on Software Engineering (ICSE’21), Student Contest on Software Engineering (SCORE) track, Madrid, Spain, May 2021, \href{https://portal.core.edu.au/conf-ranks/1209/}{ICORE rank:} A}*
+                \item \textit{43rd Int’l Conf. on Software Engineering (ICSE’21), Student Contest on Software Engineering (SCORE) track}, Madrid, Spain, May 2021, \href{https://portal.core.edu.au/conf-ranks/1209/}{ICORE rank: A*}
             \end{highlights}
         \end{onecolentry}
 
@@ -1741,7 +1752,7 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item \textit{23rd Int’l Conf. on Product-Focused Software Process Improvement (PROFES’23), Jyväskylä, Finland, 21-23 November 2022, \href{https://portal.core.edu.au/conf-ranks/1696/}{ICORE rank: B}}
+                \item \textit{23rd Int’l Conf. on Product-Focused Software Process Improvement (PROFES’23)}, Jyväskylä, Finland, 21-23 November 2022, \href{https://portal.core.edu.au/conf-ranks/1696/}{ICORE rank: B}
             \end{highlights}
         \end{onecolentry}
 
@@ -1754,7 +1765,7 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item \textit{10th Int’l Conf. on Global Software Engineering (ICGSE'15), Ciudad Real, Spain, 13-16 July 2015, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}}
+                \item \textit{10th Int’l Conf. on Global Software Engineering (ICGSE'15)}, Ciudad Real, Spain, 13-16 July 2015, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
             \end{highlights}
         \end{onecolentry}
 
@@ -1767,8 +1778,8 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item \textit{15th Int'l Symposium on Empirical Software Engineering and Measurement (ESEM’21), Bari, Italy, 11-15 Oct 2021, \href{https://portal.core.edu.au/conf-ranks/1376/}{ICORE rank: A}}
-                \item \textit{14th Int'l Symposium on Empirical Software Engineering and Measurement (ESEM’20), Bari, Italy, 5-9 Oct 2020, \href{https://portal.core.edu.au/conf-ranks/1376/}{ICORE rank: A}}
+                \item \textit{15th Int'l Symposium on Empirical Software Engineering and Measurement (ESEM’21)}, Bari, Italy, 11-15 Oct 2021, \href{https://portal.core.edu.au/conf-ranks/1376/}{ICORE rank: A}
+                \item \textit{14th Int'l Symposium on Empirical Software Engineering and Measurement (ESEM’20)}, Bari, Italy, 5-9 Oct 2020, \href{https://portal.core.edu.au/conf-ranks/1376/}{ICORE rank: A}
             \end{highlights}
         \end{onecolentry}
 
@@ -1781,9 +1792,9 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item \textit{21st Int’l Conf. on Agile Software Development (XP’20), Copenhagen, Denmark, 8-12 June 2020, \href{https://portal.core.edu.au/conf-ranks/355/}{ICORE rank: B}}
-                \item \textit{13th Int’l Conf. on Global Software Engineering (ICGSE'18), Gothenburg, Sweden, 28-29 May 2018, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}}
-                \item \textit{8th Int’l Conf. on Global Software Engineering (ICGSE'13), Bari, Italy, 26-29 Aug 2013, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}}
+                \item \textit{21st Int’l Conf. on Agile Software Development (XP’20)}, Copenhagen, Denmark, 8-12 June 2020, \href{https://portal.core.edu.au/conf-ranks/355/}{ICORE rank: B}
+                \item \textit{13th Int’l Conf. on Global Software Engineering (ICGSE'18)}, Gothenburg, Sweden, 28-29 May 2018, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
+                \item \textit{8th Int’l Conf. on Global Software Engineering (ICGSE'13)}, Bari, Italy, 26-29 Aug 2013, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
             \end{highlights}
         \end{onecolentry}
 
@@ -1798,7 +1809,7 @@
         \begin{twocolentry}{
             Sept 2021
         }
-            \textbf{The Potential and Challenges of Personality Detection in Software Engineering Research} -- 4th Int'l Workshop on Affective Computing in Requirements Engineering (AffectRE’21), co-located with RE’21\end{twocolentry}
+            \textbf{The Potential and Challenges of Personality Detection in Software Engineering Research} -- \textit{4th Int'l Workshop on Affective Computing in Requirements Engineering (AffectRE’21)}, co-located with \textit{RE’21}\end{twocolentry}
 
 
 
@@ -1807,7 +1818,7 @@
         \begin{twocolentry}{
             Aug 2016
         }
-            \textbf{Facing Communication Challenges in Distributed Software Development} -- 1st Int’l Workshop on Virtual Teams: Experiences in Global Software Engineering (VirtuES ’13), co-located with ICGSE’13\end{twocolentry}
+            \textbf{Facing Communication Challenges in Distributed Software Development} -- \textit{1st Int’l Workshop on Virtual Teams: Experiences in Global Software Engineering (VirtuES ’13)}, co-located with \textit{ICGSE’13}\end{twocolentry}
 
 
 
@@ -1819,131 +1830,131 @@
         \begin{highlightsforbulletentries}
 
 
-        \item 32nd IEEE Int’l Conf. on Software Analysis, Evolution, and Reengineering (\textit{SANER’25}), Montréal, Canada 4-7 Mar. 2025, \href{https://portal.core.edu.au/conf-ranks/2280/}{ICORE rank: A}
+        \item \textit{32nd IEEE Int’l Conf. on Software Analysis, Evolution, and Reengineering (SANER’25)}, Montréal, Canada 4-7 Mar. 2025, \href{https://portal.core.edu.au/conf-ranks/2280/}{ICORE rank: A}
 
-        \item 47th IEEE/ACM Int'l Conf. on Software Engineering (\textit{ICSE'25}) – SEIS track, Ottawa, Canada, April 27-May 3 2025, \href{https://portal.core.edu.au/conf-ranks/1209/}{ICORE rank: A*}
+        \item \textit{47th IEEE/ACM Int'l Conf. on Software Engineering (ICSE'25) – SEIS track}, Ottawa, Canada, April 27-May 3 2025, \href{https://portal.core.edu.au/conf-ranks/1209/}{ICORE rank: A*}
 
-        \item 47th IEEE/ACM Int'l Conf. on Software Engineering (\textit{ICSE'25}) – Workshops track, Ottawa, Canada, April 27-May 3 2025, \href{https://portal.core.edu.au/conf-ranks/1209/}{ICORE rank: A*}
+        \item \textit{47th IEEE/ACM Int'l Conf. on Software Engineering (ICSE'25) – Workshops track,} Ottawa, Canada, April 27-May 3 2025, \href{https://portal.core.edu.au/conf-ranks/1209/}{ICORE rank: A*}
 
-        \item 46th IEEE/ACM Int'l Conf. on Software Engineering (\textit{ICSE'24}) – SEIS track, Lisbon, Portugal, 14-20 Apr. 2024, \href{https://portal.core.edu.au/conf-ranks/1209/}{ICORE rank: A*}
+        \item \textit{46th IEEE/ACM Int'l Conf. on Software Engineering (ICSE'24) – SEIS track}, Lisbon, Portugal, 14-20 Apr. 2024, \href{https://portal.core.edu.au/conf-ranks/1209/}{ICORE rank: A*}
 
-        \item 46th IEEE/ACM Int'l Conf. on Software Engineering (\textit{ICSE'24}) – Workshops track, Lisbon, Portugal, 14-20 Apr. 2024, \href{https://portal.core.edu.au/conf-ranks/1209/}{ICORE rank: A*}
+        \item \textit{46th IEEE/ACM Int'l Conf. on Software Engineering (ICSE'24) – Workshops track}, Lisbon, Portugal, 14-20 Apr. 2024, \href{https://portal.core.edu.au/conf-ranks/1209/}{ICORE rank: A*}
 
-        \item 46th IEEE/ACM Int'l Conf. on Software Engineering (\textit{ICSE'24}) – Student Research Competition (SRC) track, Lisbon, Portugal, 14-20 Apr. 2024, \href{https://portal.core.edu.au/conf-ranks/1209/}{ICORE rank: A*}
+        \item \textit{46th IEEE/ACM Int'l Conf. on Software Engineering (ICSE'24) – Student Research Competition (SRC) track}, Lisbon, Portugal, 14-20 Apr. 2024, \href{https://portal.core.edu.au/conf-ranks/1209/}{ICORE rank: A*}
 
-        \item 18th ACM/IEEE Int'l Symposium on Empirical Software Engineering and Measurement (\textit{ESEM'24}), Barcelona, Spain 24-25 Oct. 2024, \href{https://portal.core.edu.au/conf-ranks/1376/}{ICORE rank: A}
+        \item \textit{18th ACM/IEEE Int'l Symposium on Empirical Software Engineering and Measurement (ESEM'24)}, Barcelona, Spain 24-25 Oct. 2024, \href{https://portal.core.edu.au/conf-ranks/1376/}{ICORE rank: A}
 
-        \item 21st Int'l Conf. on Mining Software Repositories (\textit{MSR'24}) – Mining Challenge track, Lisbon, Portugal, 15-16 Apr. 2024, \href{https://portal.core.edu.au/conf-ranks/711/}{ICORE rank: A}
+        \item \textit{21st Int'l Conf. on Mining Software Repositories (MSR'24) – Mining Challenge track}, Lisbon, Portugal, 15-16 Apr. 2024, \href{https://portal.core.edu.au/conf-ranks/711/}{ICORE rank: A}
 
-        \item 3rd Int'l Conf. on AI Engineering – Software Engineering for AI (\textit{CAIN'24}), Lisbon, Portugal, 14-15 Apr. 2024
+        \item \textit{3rd Int'l Conf. on AI Engineering – Software Engineering for AI (CAIN'24)}, Lisbon, Portugal, 14-15 Apr. 2024
 
-        \item 1st IEEE/ACM Workshop on Multi-disciplinary, Open, and RElevant Requirements Engineering (\textit{MO2RE'24}), Lisbon Portugal 16 Apr. 2024
+        \item \textit{1st IEEE/ACM Workshop on Multi-disciplinary, Open, and RElevant Requirements Engineering (MO2RE'24)}, Lisbon Portugal 16 Apr. 2024
 
-        \item 17th ACM/IEEE Int'l Symposium on Empirical Software Engineering and Measurement (\textit{ESEM'23}), New Orleans, USA 26-27 Oct. 2023, \href{https://portal.core.edu.au/conf-ranks/1376/}{ICORE rank: A}
+        \item \textit{17th ACM/IEEE Int'l Symposium on Empirical Software Engineering and Measurement (ESEM'23)}, New Orleans, USA 26-27 Oct. 2023, \href{https://portal.core.edu.au/conf-ranks/1376/}{ICORE rank: A}
 
-        \item 39th Int'l Conf. on Software Maintenance and Evolution (\textit{ICSME'23}) – NIER track, Bogotà, Colombia, 1-6 Oct. 2023, \href{https://portal.core.edu.au/conf-ranks/676/}{ICORE rank: A}
+        \item \textit{39th Int'l Conf. on Software Maintenance and Evolution (ICSME'23) – NIER track}, Bogotà, Colombia, 1-6 Oct. 2023, \href{https://portal.core.edu.au/conf-ranks/676/}{ICORE rank: A}
 
-        \item 45th IEEE/ACM Int'l Conf. on Software Engineering – Posters track (\textit{ICSE'23}), Melbourne, Australia, 14-20 May 2023, \href{https://portal.core.edu.au/conf-ranks/1209/}{ICORE rank: A*}
+        \item \textit{45th IEEE/ACM Int'l Conf. on Software Engineering – Posters track (ICSE'23)}, Melbourne, Australia, 14-20 May 2023, \href{https://portal.core.edu.au/conf-ranks/1209/}{ICORE rank: A*}
 
-        \item 23rd Int'l Conf. on Product-Focused Software Process Improvement (\textit{PROFES'23}), Dornbirn, Austria 10-13 Dec. 2023, \href{https://portal.core.edu.au/conf-ranks/1696/}{ICORE rank: B}
+        \item \textit{23rd Int'l Conf. on Product-Focused Software Process Improvement (PROFES'23)}, Dornbirn, Austria 10-13 Dec. 2023, \href{https://portal.core.edu.au/conf-ranks/1696/}{ICORE rank: B}
 
-        \item 30th IEEE/ACM Int'l Conf. on Program Comprehension – ERA track (\textit{ICPC'22}), Pittsburgh, USA, 16–17 May 2022, \href{https://portal.core.edu.au/conf-ranks/1181/}{ICORE rank: A}
+        \item \textit{30th IEEE/ACM Int'l Conf. on Program Comprehension – ERA track (ICPC'22)}, Pittsburgh, USA, 16–17 May 2022, \href{https://portal.core.edu.au/conf-ranks/1181/}{ICORE rank: A}
 
-        \item 17th Int'l Conf. on Global Software Engineering (\textit{ICSSP/ICGSE'22}), Pittsburgh, USA, 19–20 May 2022, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
+        \item \textit{17th Int'l Conf. on Global Software Engineering (ICSSP/ICGSE'22)}, Pittsburgh, USA, 19–20 May 2022, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
 
-        \item 15th IEEE/ACM Int'l Conf. on Cooperative and Human Aspects of Software Engineering (\textit{CHASE'22}) Pittsburgh, USA, 18–19 May 2022
+        \item \textit{15th IEEE/ACM Int'l Conf. on Cooperative and Human Aspects of Software Engineering (CHASE'22)} Pittsburgh, USA, 18–19 May 2022
 
-        \item 1st IEEE/ACM Workshop on Natural Language-based Software Engineering (\textit{NLBSE'22}), Pittsburgh, USA, 8 May 2022
+        \item \textit{1st IEEE/ACM Workshop on Natural Language-based Software Engineering (NLBSE'22)}, Pittsburgh, USA, 8 May 2022
 
-        \item 29th IEEE Int'l Conf. on Software Analysis, Evolution and Reengineering (\textit{SANER'22}), Honolulu, USA, 15 Mar. 2022, \href{https://portal.core.edu.au/conf-ranks/2280/}{ICORE rank: A}
+        \item \textit{29th IEEE Int'l Conf. on Software Analysis, Evolution and Reengineering (SANER'22)}, Honolulu, USA, 15 Mar. 2022, \href{https://portal.core.edu.au/conf-ranks/2280/}{ICORE rank: A}
 
-        \item 23rd Int'l Conf. on Agile Software Development (\textit{XP'22}), Copenhagen, Denmark, 13-17 June 2022, \href{https://portal.core.edu.au/conf-ranks/355/}{ICORE rank: B}
+        \item \textit{23rd Int'l Conf. on Agile Software Development (XP'22)}, Copenhagen, Denmark, 13-17 June 2022, \href{https://portal.core.edu.au/conf-ranks/355/}{ICORE rank: B}
 
-        \item 16th ACM/IEEE Symposium on Empirical Software Engineering and Measurement (\textit{ESEM'21}) - Emerging Results and Vision Track, online, 14-15 Oct. 2021, \href{https://portal.core.edu.au/conf-ranks/1376/}{ICORE rank: A}
+        \item \textit{16th ACM/IEEE Symposium on Empirical Software Engineering and Measurement (ESEM'21) - Emerging Results and Vision track}, online, 14-15 Oct. 2021, \href{https://portal.core.edu.au/conf-ranks/1376/}{ICORE rank: A}
 
-        \item 22nd Int'l Conf. on Agile Software Development (\textit{XP'21}), online, 14-18 June 2021, \href{https://portal.core.edu.au/conf-ranks/355/}{ ICORE rank: B}
+        \item \textit{22nd Int'l Conf. on Agile Software Development (XP'21)}, online, 14-18 June 2021, \href{https://portal.core.edu.au/conf-ranks/355/}{ ICORE rank: B}
 
-        \item 37th IEEE Int'l Conf. on Software Maintenance and Evolution (\textit{ICSME'21}) - NIER Track, online, 27 Sept. - 1 Oct. 2021, \href{https://portal.core.edu.au/conf-ranks/676/}{ICORE rank: A}
+        \item \textit{37th IEEE Int'l Conf. on Software Maintenance and Evolution (ICSME'21) - NIER Track}, online, 27 Sept. - 1 Oct. 2021, \href{https://portal.core.edu.au/conf-ranks/676/}{ICORE rank: A}
 
-        \item 14th ACM/IEEE Int'l Conf. on Cooperative and Human Aspects of Software Engineering (\textit{CHASE'21}), online, 20-21 May 2021
+        \item \textit{14th ACM/IEEE Int'l Conf. on Cooperative and Human Aspects of Software Engineering (CHASE'21)}, online, 20-21 May 2021
 
         \item 17th Int'l Conf. on Open-Source Software (\textit{OSS'21}), online, 12 May 2021
 
-        \item 16th ACM/IEEE Int'l Conf. on Global Software Engineering (\textit{ICSSP/ICGSE'21}), online, 18-19 May 2021,' \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
+        \item \textit{16th ACM/IEEE Int'l Conf. on Global Software Engineering (ICSSP/ICGSE'21)}, online, 18-19 May 2021,' \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
 
-        \item 17th IEEE/ACM Int'l Conf. on Mining Software Repositories (\textit{MSR'20}) – Mining Challenge track, online, 29-30 June 2020, \href{https://portal.core.edu.au/conf-ranks/711/}{ICORE rank: A}
+        \item \textit{17th IEEE/ACM Int'l Conf. on Mining Software Repositories (MSR'20) – Mining Challenge track}, online, 29-30 June 2020, \href{https://portal.core.edu.au/conf-ranks/711/}{ICORE rank: A}
 
-        \item 15th ACM/IEEE Symposium on Empirical Software Engineering and Measurement (\textit{ESEM'20}) - Emerging Results and Vision Track, online, 5-7 Oct. 2020, \href{https://portal.core.edu.au/conf-ranks/1376/}{ICORE rank: A}
+        \item \textit{15th ACM/IEEE Symposium on Empirical Software Engineering and Measurement (ESEM'20) - Emerging Results and Vision track}, online, 5-7 Oct. 2020, \href{https://portal.core.edu.au/conf-ranks/1376/}{ICORE rank: A}
 
-        \item ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (\textit{ESEC/FSE'20}) - SRC track, online, 6-16 Nov. 2020, \href{https://portal.core.edu.au/conf-ranks/52/}{ICORE rank: A*}
+        \item \textit{ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE'20) - SRC track}, online, 6-16 Nov. 2020, \href{https://portal.core.edu.au/conf-ranks/52/}{ICORE rank: A*}
 
-        \item 21st Int'l Conf. on Agile Software Development (\textit{XP'20}), online, 8-12 June 2020, \href{https://portal.core.edu.au/conf-ranks/355/}{ICORE rank: B}
+        \item \textit{21st Int'l Conf. on Agile Software Development (XP'20)}, online, 8-12 June 2020, \href{https://portal.core.edu.au/conf-ranks/355/}{ICORE rank: B}
 
-        \item 15th IEEE/ACM Int'l Conf. on Global Software Engineering (\textit{ICGSE'20}), online, 26-28 June 2020, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
+        \item \textit{15th IEEE/ACM Int'l Conf. on Global Software Engineering (ICGSE'20)}, online, 26-28 June 2020, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
 
-        \item 13th IEEE/ACM Int'l Conf. on Cooperative and Human Aspects of Software Engineering (\textit{CHASE'20}), online, 1-2 July 2020
+        \item \textit{13th IEEE/ACM Int'l Conf. on Cooperative and Human Aspects of Software Engineering (CHASE'20)}, online, 1-2 July 2020
 
-        \item 36th Int'l Conf. on Software Maintenance and Evolution (\textit{ICSME'20}) Doctoral Symposium Program Committee, Adelaide, Australia, Sep 28-Oct 02, 2020, \href{https://portal.core.edu.au/conf-ranks/676/}{ICORE rank: A}
+        \item \textit{36th Int'l Conf. on Software Maintenance and Evolution (ICSME'20) Doctoral Symposium Program Committee}, Adelaide, Australia, Sep 28-Oct 02, 2020, \href{https://portal.core.edu.au/conf-ranks/676/}{ICORE rank: A}
 
-        \item 13th Int'l Conf. on the Quality of Information and Communications Technology (\textit{QUATIC'20}), online, 9-11 Sept. 2020, \href{https://portal.core.edu.au/conf-ranks/2180/}{ICORE rank: C}
+        \item \textit{13th Int'l Conf. on the Quality of Information and Communications Technology (QUATIC'20)}, online, 9-11 Sept. 2020, \href{https://portal.core.edu.au/conf-ranks/2180/}{ICORE rank: C}
 
-        \item 16th Int'l Symposium on Open Collaboration (\textit{OpenSym'20}), online, 26–27 Aug. 2020, \href{https://portal.core.edu.au/conf-ranks/1432/}{ICORE rank: C}
+        \item \textit{16th Int'l Symposium on Open Collaboration (OpenSym'20)}, online, 26–27 Aug. 2020, \href{https://portal.core.edu.au/conf-ranks/1432/}{ICORE rank: C}
 
-        \item 15th Int'l Conf. on Global Software Engineering (\textit{ICGSE'20}), online, 26-28 June 2020, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
+        \item \textit{15th Int'l Conf. on Global Software Engineering (ICGSE'20)}, online, 26-28 June 2020, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
 
-        \item 27th IEEE Int'l Conf. on Software Analysis, Evolution and Reengineering (\textit{SANER'20}), London, Ontario, Canada, February 18-21, 2020, \href{https://portal.core.edu.au/conf-ranks/2280/}{ICORE rank: A}
+        \item \textit{27th IEEE Int'l Conf. on Software Analysis, Evolution and Reengineering (SANER'20)}, London, Ontario, Canada, February 18-21, 2020, \href{https://portal.core.edu.au/conf-ranks/2280/}{ICORE rank: A}
 
-        \item 13th Int'l Symposium on Empirical Software Engineering and Measurement (\textit{ESEM'19}), Porto de Galinhas, Brazil, 16-20 Sept. 2019, \href{https://portal.core.edu.au/conf-ranks/1376/}{ICORE rank: A}
+        \item \textit{13th Int'l Symposium on Empirical Software Engineering and Measurement (ESEM'19)}, Porto de Galinhas, Brazil, 16-20 Sept. 2019, \href{https://portal.core.edu.au/conf-ranks/1376/}{ICORE rank: A}
 
-        \item 20th Int'l Conf. on Agile Software Development (\textit{XP'19}), Montréal, Canada, 21-25 May 2019, \href{https://portal.core.edu.au/conf-ranks/355/}{ICORE rank: B}
+        \item \textit{20th Int'l Conf. on Agile Software Development (XP'19)}, Montréal, Canada, 21-25 May 2019, \href{https://portal.core.edu.au/conf-ranks/355/}{ICORE rank: B}
 
-        \item 12th Int'l Symposium on Empirical Software Engineering and Measurement (\textit{ESEM'18}), Oulu, Finland, 11-12 Oct. 2018, \href{https://portal.core.edu.au/conf-ranks/1376/}{ICORE rank: A}
+        \item \textit{12th Int'l Symposium on Empirical Software Engineering and Measurement (ESEM'18)}, Oulu, Finland, 11-12 Oct. 2018, \href{https://portal.core.edu.au/conf-ranks/1376/}{ICORE rank: A}
 
-        \item 12th Workshop on Distributed Software Development, Software Ecosystems and Systems-of-Systems (\textit{WDES'18}), Madrid, Spain, Sept. 24, 2018
+        \item \textit{12th Workshop on Distributed Software Development, Software Ecosystems and Systems-of-Systems (WDES'18)}, Madrid, Spain, Sept. 24, 2018
 
-        \item 40th Int'l Conf. on Software Engineering (\textit{ICSE'18}) – Student Contest on Software Engineering (SCORE) track, Gothenburg, Sweden, May 27–June 3, 2018, \href{https://portal.core.edu.au/conf-ranks/1209/}{ICORE rank: A*}
+        \item \textit{40th Int'l Conf. on Software Engineering (ICSE'18) – Student Contest on Software Engineering (SCORE) track}, Gothenburg, Sweden, May 27–June 3, 2018, \href{https://portal.core.edu.au/conf-ranks/1209/}{ICORE rank: A*}
 
-        \item 13th Int'l Conf. on Global Software Engineering (\textit{ICGSE'18}), Gothenburg, Sweden, 24-26 May 2018, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
+        \item \textit{13th Int'l Conf. on Global Software Engineering (ICGSE'18)}, Gothenburg, Sweden, 24-26 May 2018, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
 
-        \item 1st Int'l Workshop on Affective Computing for Requirements Engineering (\textit{AffectRE'18}), Banff, Canada Aug 21, 2018
+        \item \textit{1st Int'l Workshop on Affective Computing for Requirements Engineering (AffectRE'18)}, Banff, Canada Aug 21, 2018
 
-        \item 11th Int'l Symposium on Empirical Software Engineering and Measurement (\textit{ESEM'17}) Toronto, Canada, 9-10 Nov. 2017, \href{https://portal.core.edu.au/conf-ranks/1376/}{ICORE rank: A}
+        \item \textit{11th Int'l Symposium on Empirical Software Engineering and Measurement (ESEM'17)} Toronto, Canada, 9-10 Nov. 2017, \href{https://portal.core.edu.au/conf-ranks/1376/}{ICORE rank: A}
 
-        \item 12th Int'l Conf. on Global Software Engineering (\textit{ICGSE'17}), Buenos Aires, Argentina, 22-23 May 2017, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
+        \item \textit{12th Int'l Conf. on Global Software Engineering (ICGSE'17)}, Buenos Aires, Argentina, 22-23 May 2017, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
 
-        \item 10th Int'l Symposium on Empirical Software Engineering and Measurement (\textit{ESEM'16}), Ciudad Real, Spain, 8-9 Sept. 2016, \href{https://portal.core.edu.au/conf-ranks/1376/}{ICORE rank: A}
+        \item \textit{10th Int'l Symposium on Empirical Software Engineering and Measurement (ESEM'16)}, Ciudad Real, Spain, 8-9 Sept. 2016, \href{https://portal.core.edu.au/conf-ranks/1376/}{ICORE rank: A}
 
-        \item 11th Int'l Conf. on Global Software Engineering (\textit{ICGSE'16}), Orange County, CA, USA, 2-5 Aug. 2016, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
+        \item \textit{11th Int'l Conf. on Global Software Engineering (ICGSE'16)}, Orange County, CA, USA, 2-5 Aug. 2016, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
 
-        \item 9th Int'l Symposium on Empirical Software Engineering and Measurement (\textit{ESEM'15}), Beijing, China, 22-23 Oct. 2015, \href{https://portal.core.edu.au/conf-ranks/1376/}{ICORE rank: A}
+        \item \textit{9th Int'l Symposium on Empirical Software Engineering and Measurement (ESEM'15)}, Beijing, China, 22-23 Oct. 2015, \href{https://portal.core.edu.au/conf-ranks/1376/}{ICORE rank: A}
 
-        \item 10th Int'l Conf. on Global Software Engineering (\textit{ICGSE'15}), Ciudad Real, Spain, 13-16 July 2015, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
+        \item \textit{10th Int'l Conf. on Global Software Engineering (ICGSE'15)}, Ciudad Real, Spain, 13-16 July 2015, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
 
-        \item 7th Software Quality Days (\textit{SWQD'15}), Vienna, Austria, 20-23 Jan. 2015
+        \item \textit{7th Software Quality Days (SWQD'15)}, Vienna, Austria, 20-23 Jan. 2015
 
-        \item 6th Software Quality Days (\textit{SWQD'14}), Vienna, Austria, 14-16 Jan. 2014
+        \item \textit{6th Software Quality Days (SWQD'14)}, Vienna, Austria, 14-16 Jan. 2014
 
-        \item 8th Int'l Conf. on Global Software Engineering (\textit{ICGSE'13}), Bari, Italy, 26-29 Aug. 2013, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
+        \item \textit{8th Int'l Conf. on Global Software Engineering (ICGSE'13)}, Bari, Italy, 26-29 Aug. 2013, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
 
-        \item 7th Int'l Conf. on Global Software Engineering (\textit{ICGSE'12}), Porto Alegre, Brazil, 27-30 Aug. 2012, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
+        \item \textit{7th Int'l Conf. on Global Software Engineering (ICGSE'12)}, Porto Alegre, Brazil, 27-30 Aug. 2012, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
 
-        \item 5th Workshop of the Italian Eclipse Community (\textit{Eclipse-IT'10}), Savona, Italy, Sep. 30-Oct. 1, 2010
+        \item \textit{5th Workshop of the Italian Eclipse Community (Eclipse-IT'10)}, Savona, Italy, Sep. 30-Oct. 1, 2010
 
-        \item 5th Int'l Conf. on P2P, Parallel, Grid, Cloud and Internet Computing (\textit{3PGCIC-2010}), Fukuoka, Japan, 4-6 Nov. 2010
+        \item \textit{5th Int'l Conf. on P2P, Parallel, Grid, Cloud and Internet Computing (3PGCIC-2010)}, Fukuoka, Japan, 4-6 Nov. 2010
 
-        \item 2nd Int'l Workshop on Social Software Engineering and Applications (\textit{SoSEA'09}), Amsterdam, The Netherlands, 24 Aug. 2009
+        \item \textit{2nd Int'l Workshop on Social Software Engineering and Applications (SoSEA'09)}, Amsterdam, The Netherlands, 24 Aug. 2009
 
-        \item 4th Int'l Conf. on Global Software Engineering (\textit{ICGSE'09}), Limerick, Ireland, 13-16 Jul. 2009, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
+        \item \textit{4th Int'l Conf. on Global Software Engineering (ICGSE'09)}, Limerick, Ireland, 13-16 Jul. 2009, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
 
-        \item 4th Workshop of the Italian Eclipse Community (\textit{Eclipse-IT'09}), Bergamo, Italy, 28-29 Sept. 2009
+        \item \textit{4th Workshop of the Italian Eclipse Community (Eclipse-IT'09)}, Bergamo, Italy, 28-29 Sept. 2009
 
-        \item 14th Collaboration Researchers' International Workshop on Groupware (\textit{CRIWG'08}), Omaha, NE, USA, 14-18 Sept. 2008
+        \item \textit{14th Collaboration Researchers' International Workshop on Groupware (CRIWG'08)}, Omaha, NE, USA, 14-18 Sept. 2008
 
-        \item 3rd Int'l Conf. on Global Software Engineering (\textit{ICGSE'08}), Bangalore, India, 17-20 Aug. 2008, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
+        \item \textit{3rd Int'l Conf. on Global Software Engineering (ICGSE'08)}, Bangalore, India, 17-20 Aug. 2008, \href{https://portal.core.edu.au/conf-ranks/650/}{ICORE rank: C}
 
-        \item 3rd Workshop of the Italian Eclipse Community (\textit{Eclipse-IT'08}), Bari, Italy, 17-18 Nov. 2008
+        \item \textit{3rd Workshop of the Italian Eclipse Community (Eclipse-IT'08)}, Bari, Italy, 17-18 Nov. 2008
 
-        \item 1st Int'l Conf. on Software Engineering and Applications (\textit{ICSEA'06}), Tahiti, Polynesia, Oct. 29 – Nov. 3, 2006, \href{https://portal.core.edu.au/conf-ranks/1210/}{ICORE rank: C}
+        \item \textit{1st Int'l Conf. on Software Engineering and Applications (ICSEA'06)}, Tahiti, Polynesia, Oct. 29 – Nov. 3, 2006, \href{https://portal.core.edu.au/conf-ranks/1210/}{ICORE rank: C}
 
 
         \end{highlightsforbulletentries}
@@ -2012,7 +2023,7 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item \textit{Hosts: Prof. Marco Aurelio Gerosa, Prof. Igor Steinmacher}
+                \item \textit{Hosts}: Prof. Marco Aurelio Gerosa, Prof. Igor Steinmacher
             \end{highlights}
         \end{onecolentry}
 
@@ -2027,7 +2038,7 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item \textit{Host: Prof. Davide Taibi}
+                \item \textit{Host}: Prof. Davide Taibi
             \end{highlights}
         \end{onecolentry}
 
@@ -2042,7 +2053,7 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item \textit{Host: Prof. Bogdan Vasilescu}
+                \item \textit{Host}: Prof. Bogdan Vasilescu
             \end{highlights}
         \end{onecolentry}
 
@@ -2057,7 +2068,7 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item \textit{Host: Prof. Margaret-Anne Storey}
+                \item \textit{Host}: Prof. Margaret-Anne Storey
             \end{highlights}
         \end{onecolentry}
 
@@ -2072,7 +2083,7 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item \textit{Host: Prof. Daniela Damian}
+                \item \textit{Host}: Prof. Daniela Damian
             \end{highlights}
         \end{onecolentry}
 
@@ -2087,7 +2098,7 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item \textit{Host: Prof. Schaharm Dustdar}
+                \item \textit{Host}: Prof. Schaharm Dustdar
             \end{highlights}
         \end{onecolentry}
 
