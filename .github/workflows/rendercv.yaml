@@ -40,6 +40,7 @@ jobs:
             biblatex-ieee
             fontawesome
             fontawesome5
+            tcolorbox
       - name: Install PDFtk
         run: |
           sudo apt-get install pdftk -y
