@@ -20,6 +20,10 @@ jobs:
           python-version: "3.13"
       - name: Setup TeX Live
         uses: teatimeguest/setup-texlive-action@v3
+        with:
+          packages: |
+            hyperref
+            docstrip
       - name: Install grfext.sty
         run: |
           wget https://mirrors.ctan.org/macros/latex/contrib/grfext/grfext.dtx
@@ -27,7 +31,7 @@ jobs:
           sudo mv grfext.sty /usr/share/texlive/texmf-dist/tex/latex/grfext/
           sudo mv grfext.pdf /usr/share/texlive/texmf-dist/doc/latex/grfext/
           sudo mv grfext.dtx /usr/share/texlive/texmf-dist/source/latex/grfext/
-          sudo /home/runner/work/_temp/setup-texlive-action/2024/bin/x86_64-linux/texhash
+          sudo  /home/runner/work/_temp/setup-texlive-action/2024/bin/x86_64-linux/texhash
       - name: Install PDFtk
         run: |
           sudo apt-get install pdftk -y
