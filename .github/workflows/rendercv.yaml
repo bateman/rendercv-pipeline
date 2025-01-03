@@ -38,6 +38,8 @@ jobs:
             datetime2
             biblatex
             biblatex-ieee
+            fontawesome
+            fontawesome5
       - name: Install PDFtk
         run: |
           sudo apt-get install pdftk -y
