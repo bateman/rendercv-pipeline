@@ -20,15 +20,6 @@ jobs:
           python-version: "3.13"
       - name: Setup TeX Live
         uses: teatimeguest/setup-texlive-action@v3
-        with:
-          packages: |
-            tex
-            pdftex
-            latex-recommended
-            pictures
-            latex-extra
-            biber
-            fontawesome5
       - name: Install grfext.sty
         run: |
           wget https://mirrors.ctan.org/macros/latex/contrib/grfext/grfext.dtx
