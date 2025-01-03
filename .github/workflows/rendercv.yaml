@@ -33,6 +33,7 @@ jobs:
             changepage
             paracol
             needspace
+            hyphenat
       - name: Install PDFtk
         run: |
           sudo apt-get install pdftk -y
