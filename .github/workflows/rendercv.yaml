@@ -46,6 +46,7 @@ jobs:
             listings
             listingsutf8
             dashrule
+            ifmtarg
       - name: Install PDFtk
         run: |
           sudo apt-get install pdftk -y
