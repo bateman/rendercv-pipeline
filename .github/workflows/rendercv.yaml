@@ -27,6 +27,7 @@ jobs:
             titlesec
             xcolor
             enumitem
+            etoolbox
       - name: Install PDFtk
         run: |
           sudo apt-get install pdftk -y
