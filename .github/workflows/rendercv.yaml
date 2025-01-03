@@ -24,13 +24,19 @@ jobs:
           packages: |
             tex
             pdftex
-            hyperref
+            latex-recommended
+            pictures
+            latex-extra
             biber
             fontawesome5
       - name: Install grfext.sty
         run: |
-          wget https://ftp.math.utah.edu/pub/texlive/Contents/live/texmf-dist/tex/latex/oberdiek/grfext.sty
-          sudo texhash
+          wget https://mirrors.ctan.org/macros/latex/contrib/grfext/grfext.dtx
+          sudo /home/runner/work/_temp/setup-texlive-action/2024/bin/x86_64-linux/tex grfext.dtx
+          sudo mv grfext.sty /usr/share/texlive/texmf-dist/tex/latex/grfext/
+          sudo mv grfext.pdf /usr/share/texlive/texmf-dist/doc/latex/grfext/
+          sudo mv grfext.dtx /usr/share/texlive/texmf-dist/source/latex/grfext/
+          sudo /home/runner/work/_temp/setup-texlive-action/2024/bin/x86_64-linux/texhash
       - name: Install PDFtk
         run: |
           sudo apt-get install pdftk -y
