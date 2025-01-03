@@ -44,6 +44,7 @@ jobs:
             tikzfill.image
             pdfcol
             listings
+            listingsutf8
       - name: Install PDFtk
         run: |
           sudo apt-get install pdftk -y
