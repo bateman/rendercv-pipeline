@@ -34,6 +34,7 @@ jobs:
             paracol
             needspace
             hyphenat
+            charter
       - name: Install PDFtk
         run: |
           sudo apt-get install pdftk -y
