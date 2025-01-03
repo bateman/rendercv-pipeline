@@ -49,14 +49,14 @@ jobs:
           cd ..
           python src/parsebib.py
           python src/pubmerger.py
-          rendercv render src/$cv_file --pdf-path ${cv_file%.yaml}.pdf --markdown-path README.md --latex-path ${cv_file%.yaml}.tex --html-path ${cv_file%.yaml}.html --dont-generate-png --use-local-latex-command "latex"
+          rendercv render src/$cv_file --pdf-path ${cv_file%.yaml}.pdf --markdown-path README.md --latex-path ${cv_file%.yaml}.tex --html-path ${cv_file%.yaml}.html --dont-generate-png --use-local-latex-command "pdftex"
           python src/genmd.py
-          latex Fabio_Calefato_Publications
+          pdftex Fabio_Calefato_Publications
           biber Fabio_Calefato_Publications
-          latex Fabio_Calefato_Publications
-          latex Fabio_Calefato_Publications
+          pdftex Fabio_Calefato_Publications
+          pdftex Fabio_Calefato_Publications
           cd application_letters
-          latex -job-name=hpi hpi.tex 
+          pdftex -job-name=hpi hpi.tex 
           pdftk hpi.pdf ../${cv_file%.yaml}.pdf ../Fabio_Calefato_Publications.pdf Certificates/phd_certificate-ita.pdf Certificates/msc_certificate-ita.pdf cat output temp.pdf
           python ../src/pdfnumbering.py temp.pdf Fabio_Calefato_Application_hpi.pdf 
           rm temp.pdf
