@@ -27,8 +27,11 @@ jobs:
             fontawesome5
       - name: Install grfext.sty
         run: |
-          wget http://mirrors.ctan.org/macros/latex/contrib/oberdiek/grfext.sty
-          sudo mv grfext.sty /usr/share/texlive/texmf-dist/tex/latex/oberdiek/
+          wget https://mirrors.ctan.org/macros/latex/contrib/grfext/grfext.dtx
+          sudo tex grfext.dtx
+          sudo mv grfext.sty /usr/share/texlive/texmf-dist/tex/latex/grfext/
+          sudo mv grfext.pdf /usr/share/texlive/texmf-dist/doc/latex/grfext/
+          sudo mv grfext.dtx /usr/share/texlive/texmf-dist/source/latex/grfext/
           sudo texhash
       - name: Install PDFtk
         run: |
