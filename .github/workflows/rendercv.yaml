@@ -24,14 +24,8 @@ jobs:
           packages: |
             scheme-basic
             hyperref
-            docstrip
             titlesec
-      - name: Install grfext.sty
-        run: |
-          wget https://mirrors.ctan.org/macros/latex/contrib/grfext/grfext.dtx
-          sudo /home/runner/work/_temp/setup-texlive-action/2024/bin/x86_64-linux/tex grfext.dtx
-          sudo mv grfext.sty /home/runner/work/_temp/setup-texlive-action/2024/texmf-dist/tex/latex/grfext/
-          sudo  /home/runner/work/_temp/setup-texlive-action/2024/bin/x86_64-linux/texhash
+            xcolor
       - name: Install PDFtk
         run: |
           sudo apt-get install pdftk -y
