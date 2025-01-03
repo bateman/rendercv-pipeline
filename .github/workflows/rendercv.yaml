@@ -36,6 +36,7 @@ jobs:
             hyphenat
             charter
             datetime2
+            biblatex
       - name: Install PDFtk
         run: |
           sudo apt-get install pdftk -y
