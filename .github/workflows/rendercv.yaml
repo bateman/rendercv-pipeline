@@ -22,6 +22,7 @@ jobs:
         uses: teatimeguest/setup-texlive-action@v3
         with:
           packages: |
+            tex
             hyperref
             biber
             fontawesome5
