@@ -43,6 +43,7 @@ jobs:
             tcolorbox
             tikzfill.image
             pdfcol
+            listings
       - name: Install PDFtk
         run: |
           sudo apt-get install pdftk -y
