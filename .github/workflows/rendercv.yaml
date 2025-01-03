@@ -28,6 +28,7 @@ jobs:
             xcolor
             enumitem
             etoolbox
+            eso-pic
       - name: Install PDFtk
         run: |
           sudo apt-get install pdftk -y
