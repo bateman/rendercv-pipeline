@@ -48,6 +48,7 @@ jobs:
             dashrule
             ifmtarg
             adjustbox
+            lipsum
       - name: Install PDFtk
         run: |
           sudo apt-get install pdftk -y
