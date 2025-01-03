@@ -28,9 +28,9 @@ jobs:
         run: |
           wget https://mirrors.ctan.org/macros/latex/contrib/grfext/grfext.dtx
           sudo /home/runner/work/_temp/setup-texlive-action/2024/bin/x86_64-linux/tex grfext.dtx
-          sudo mv grfext.sty /usr/share/texlive/texmf-dist/tex/latex/grfext/
-          sudo mv grfext.pdf /usr/share/texlive/texmf-dist/doc/latex/grfext/
-          sudo mv grfext.dtx /usr/share/texlive/texmf-dist/source/latex/grfext/
+          sudo mv grfext.sty /home/runner/work/_temp/setup-texlive-action/2024/texmf-dist/tex/latex/grfext/
+          sudo mv grfext.pdf /home/runner/work/_temp/setup-texlive-action/2024/texmf-dist/texmf-dist/doc/latex/grfext/
+          sudo mv grfext.dtx /home/runner/work/_temp/setup-texlive-action/2024/texmf-dist/source/latex/grfext/
           sudo  /home/runner/work/_temp/setup-texlive-action/2024/bin/x86_64-linux/texhash
       - name: Install PDFtk
         run: |
