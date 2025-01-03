@@ -24,8 +24,8 @@ jobs:
       - name: Install pdflatex with biber
         run: |
           sudo apt-get install texlive-latex-base texlive-latex-extra texlive-latex-recommended texlive-bibtex-extra texlive-fonts-extra biber -y
-          sudo tlmgr init-usertree
-          sudo tlmgr install grfext
+          tlmgr init-usertree
+          tlmgr install grfext
       - name: Install PDFtk
         run: |
           sudo apt-get install pdftk -y
