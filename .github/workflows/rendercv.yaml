@@ -28,6 +28,7 @@ jobs:
             hyperref
             biber
             fontawesome5
+            grfext
       - name: Install PDFtk
         run: |
           sudo apt-get install pdftk -y
