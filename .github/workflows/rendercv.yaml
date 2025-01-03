@@ -47,6 +47,7 @@ jobs:
             listingsutf8
             dashrule
             ifmtarg
+            adjustbox
       - name: Install PDFtk
         run: |
           sudo apt-get install pdftk -y
