@@ -41,6 +41,7 @@ jobs:
             fontawesome
             fontawesome5
             tcolorbox
+            tikzfill.image
       - name: Install PDFtk
         run: |
           sudo apt-get install pdftk -y
