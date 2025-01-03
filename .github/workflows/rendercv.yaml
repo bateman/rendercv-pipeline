@@ -37,6 +37,7 @@ jobs:
             charter
             datetime2
             biblatex
+            biblatex-ieee
       - name: Install PDFtk
         run: |
           sudo apt-get install pdftk -y
