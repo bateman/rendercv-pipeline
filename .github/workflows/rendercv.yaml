@@ -26,6 +26,7 @@ jobs:
             hyperref
             titlesec
             xcolor
+            enumitem
       - name: Install PDFtk
         run: |
           sudo apt-get install pdftk -y
