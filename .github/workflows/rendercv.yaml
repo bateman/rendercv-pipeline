@@ -25,6 +25,7 @@ jobs:
             scheme-basic
             hyperref
             docstrip
+            titlesec
       - name: Install grfext.sty
         run: |
           wget https://mirrors.ctan.org/macros/latex/contrib/grfext/grfext.dtx
