@@ -572,7 +572,7 @@
         </ul>
         <h2>Associate Editor</h2>
         <ul>
-        <li>Elsevier *<a href="https://www.sciencedirect.com/journal/journal-of-systems-and-software/about/editorial-board">Journal of Systems and Software (JSS)*</a>, rank: SJR Q1</li>
+        <li>Elsevier <a href="https://www.sciencedirect.com/journal/journal-of-systems-and-software/about/editorial-board"><em>Journal of Systems and Software (JSS)</em></a>, rank: SJR Q1</li>
         <li>Springer <em><a href="https://link.springer.com/journal/10515/editorial-board">Automated Software Engineering (ASE)</a></em></li>
         </ul>
         <h2>Guest Editor</h2>
