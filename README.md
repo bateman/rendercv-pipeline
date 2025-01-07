@@ -515,8 +515,8 @@ My research primarily focuses on the intersection of Software Engineering and AI
 
 ## Associate Editor
 
-- Elsevier *Journal of Systems and Software (JSS)*, rank: SJR Q1
-- Springer *Automated Software Engineering (ASE)*
+- Elsevier *[Journal of Systems and Software (JSS)*](https://www.sciencedirect.com/journal/journal-of-systems-and-software/about/editorial-board), rank: SJR Q1
+- Springer *[Automated Software Engineering (ASE)](https://link.springer.com/journal/10515/editorial-board)*
 
 ## Guest Editor
 
