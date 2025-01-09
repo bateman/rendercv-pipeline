@@ -101,7 +101,7 @@ My research primarily focuses on the intersection of Software Engineering and AI
 - Scopus: *h*-index 21, 1,500+ citations
 # Selected Publications
 
-## On the Self-admitted Use of LLMs in Open Source Software Projects  (2025 (under review)) 
+## On the Self-admitted Use of LLMs in Open Source Software Projects  (2025 -- under review) 
 - T. Xiao, Y. Fan, ***F. Calefato***, R. Kula, C. Treude, H. Hata, S. Baltes
 - IEEE Transactions on Software Engineering 
 

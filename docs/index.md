@@ -128,7 +128,7 @@
         <li>Scopus: <em>h</em>-index 21, 1,500+ citations</li>
         </ul>
         <h1>Selected Publications</h1>
-        <h2>On the Self-admitted Use of LLMs in Open Source Software Projects  (2025 (under review))</h2>
+        <h2>On the Self-admitted Use of LLMs in Open Source Software Projects  (2025 -- under review)</h2>
         <ul>
         <li>T. Xiao, Y. Fan, <strong><em>F. Calefato</em></strong>, R. Kula, C. Treude, H. Hata, S. Baltes</li>
         <li>IEEE Transactions on Software Engineering </li>
