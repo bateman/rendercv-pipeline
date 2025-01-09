@@ -95,6 +95,16 @@
         date: 2024
         journal: "Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement, ESEM 2024, Barcelona, Spain, October 24-25, 2024"
         doi: 10.1145/3674805.3695393
+      - title: "A Preliminary Study on Augmenting Neuroimaging data using a Diffusion Model (Short Paper)"
+        authors:
+          - A. Basile
+          - "***F. Calefato***"
+          - F. Lanubile
+          - G. Logroscino
+          - G. Mallardi
+          - B. Tafuri
+        date: 2024
+        journal: "Proceedings of the 3rd AIxIA Workshop on Artificial Intelligence For Healthcare (HC@AIxIA 2024) co-located with the 23rd International Conference of the Italian Association for Artificial Intelligence (AIxIA 2024), Bolzano, Italy, 27-28 November 2024, vol. 3880"
       - title: "Professional Insights into Benefits and Limitations of Implementing MLOps Principles"
         authors:
           - G. Araujo
