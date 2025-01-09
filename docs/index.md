@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>
-        Fabio Calefato
+        Contacts
     </title>
     
     
@@ -35,7 +35,7 @@
 
 <body>
     <article class="markdown-body">
-        <h1>Fabio Calefato</h1>
+        <h1>Contacts</h1>
         <ul>
         <li>Phone: +39 080 571 2213</li>
         <li>Email: <a href="mailto:fabio.calefato@uniba.it">fabio.calefato@uniba.it</a></li>
