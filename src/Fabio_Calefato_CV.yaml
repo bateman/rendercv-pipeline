@@ -222,7 +222,7 @@ cv:
       - C. Treude
       - H. Hata
       - S. Baltes
-      date: 2025 (under review)
+      date: 2025 -- under review
       journal: IEEE Transactions on Software Engineering
     - title: A multivocal literature review on the benefits and limitations of industry-leading
         AutoML tools
