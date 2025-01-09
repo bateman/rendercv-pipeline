@@ -74,12 +74,12 @@ jobs:
           biber Fabio_Calefato_Publications
           pdflatex Fabio_Calefato_Publications
           pdflatex Fabio_Calefato_Publications
-          cd application_letters
-          pdflatex -job-name=hpi hpi.tex 
-          pdftk hpi.pdf ../${cv_file%.yaml}.pdf ../Fabio_Calefato_Publications.pdf Certificates/phd_certificate-ita.pdf Certificates/msc_certificate-ita.pdf cat output temp.pdf
-          python ../src/pdfnumbering.py temp.pdf Fabio_Calefato_Application_hpi.pdf 
-          rm temp.pdf
-          cd ..
+          # cd application_letters
+          # pdflatex -job-name=hpi hpi.tex 
+          # pdftk hpi.pdf ../${cv_file%.yaml}.pdf ../Fabio_Calefato_Publications.pdf Certificates/phd_certificate-ita.pdf Certificates/msc_certificate-ita.pdf cat output temp.pdf
+          # python ../src/pdfnumbering.py temp.pdf Fabio_Calefato_Application_hpi.pdf 
+          # rm temp.pdf
+          # cd ..
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
         with:
