@@ -810,7 +810,7 @@ design:
 locale_catalog:
   last_updated_date_style: Updated$:$ TODAY
   page_numbering_style: Page PAGE_NUMBER of TOTAL_PAGES
-  phone_number_format: national
+  phone_number_format: international
   date_style: MONTH_ABBREVIATION YEAR
   month: month
   months: months
