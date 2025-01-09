@@ -128,7 +128,7 @@
         <li>Scopus: <em>h</em>-index 21, 1,500+ citations</li>
         </ul>
         <h1>Selected Publications</h1>
-        <h2>On the Self-admitted Use of LLMs in Open Source Software Projects  (2025 -- under review)</h2>
+        <h2>On the Self-admitted Use of LLMs in Open Source Software Projects  (2025 - under review)</h2>
         <ul>
         <li>T. Xiao, Y. Fan, <strong><em>F. Calefato</em></strong>, R. Kula, C. Treude, H. Hata, S. Baltes</li>
         <li>IEEE Transactions on Software Engineering </li>
@@ -156,7 +156,7 @@
         <li>F. Lanubile, <strong><em>F. Calefato</em></strong>, L. Quaranta, M. Amoruso, F. Fumarola, M. Filannino</li>
         <li>1st IEEE/ACM Workshop on AI Engineering - Software Engineering for AI, WAIN@ICSE 2021, Madrid, Spain, May 30-31, 2021, doi:<a href="https://doi.org/10.1109/WAIN52551.2021.00027">10.1109/WAIN52551.2021.00027</a> </li>
         </ul>
-        <h2>Love, Joy, Anger, Sadness, Fear, and Surprise -- SE Needs Special Kinds of AI: A Case Study on Text Mining and SE  (2020)</h2>
+        <h2>Love, Joy, Anger, Sadness, Fear, and Surprise - SE Needs Special Kinds of AI: A Case Study on Text Mining and SE  (2020)</h2>
         <ul>
         <li>N. Novielli, <strong><em>F. Calefato</em></strong>, F. Lanubile</li>
         <li>IEEE Softw., vol. 37, no. 3, doi:<a href="https://doi.org/10.1109/MS.2020.2968557">10.1109/MS.2020.2968557</a> </li>

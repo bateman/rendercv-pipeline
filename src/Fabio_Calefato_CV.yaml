@@ -222,7 +222,7 @@ cv:
       - C. Treude
       - H. Hata
       - S. Baltes
-      date: 2025 -- under review
+      date: 2025 - under review
       journal: IEEE Transactions on Software Engineering
     - title: A multivocal literature review on the benefits and limitations of industry-leading
         AutoML tools
@@ -301,7 +301,7 @@ cv:
       journal: 1st IEEE/ACM Workshop on AI Engineering - Software Engineering for
         AI, WAIN@ICSE 2021, Madrid, Spain, May 30-31, 2021
       doi: 10.1109/WAIN52551.2021.00027
-    - title: 'Love, Joy, Anger, Sadness, Fear, and Surprise -- SE Needs Special Kinds
+    - title: 'Love, Joy, Anger, Sadness, Fear, and Surprise - SE Needs Special Kinds
         of AI: A Case Study on Text Mining and SE'
       authors:
       - N. Novielli
@@ -1065,7 +1065,7 @@ design:
 locale_catalog:
   last_updated_date_style: Updated$:$ TODAY
   page_numbering_style: Page PAGE_NUMBER of TOTAL_PAGES
-  phone_number_format: national
+  phone_number_format: international
   date_style: MONTH_ABBREVIATION YEAR
   month: month
   months: months
