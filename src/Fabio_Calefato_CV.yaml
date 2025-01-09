@@ -115,6 +115,17 @@ cv:
       reviews, and human studies design. Our collaborative work explores both opportunities
       and risks of AI adoption in SE research, gathering perspectives from researchers
       about the changing landscape of empirical software engineering methods.'
+    - '**Software engineering for AI-enabled systems**: One of my recent research
+      interests is focused on improving the development workflows of AI/ML-based systems
+      through empirical studies and tool development. I conducted a comprehensive
+      review of industry-leading AutoML tools to analyze their benefits and limitations
+      in software engineering contexts (IST 2025). I have contributed to understanding
+      MLOps practices by analyzing adoption patterns in open-source projects on GitHub
+      (ESEM 2022). This work revealed key challenges in transitioning ML models from
+      experimentation to production, leading to the development of an MLOps solution
+      framework applied in healthcare contexts (CAIN 2022). Finally, I have established
+      best practices for collaborative development of AI systems using computational
+      notebooks (CSCW 2021).'
     - '**AI Safety and Regulatory Compliance in Healthcare Systems**: One of my current
       research interests focuses on developing frameworks and methodologies for ensuring
       continuous compliance and safety of AI systems in regulated healthcare environments.
@@ -129,17 +140,6 @@ cv:
       collaborations with healthcare institutions and secured funding through national
       initiatives, including the DARE project (€130.5M) for digital preventive healthcare
       solutions.'
-    - '**Software engineering for AI-enabled systems**: One of my recent research
-      interests is focused on improving the development workflows of AI/ML-based systems
-      through empirical studies and tool development. I conducted a comprehensive
-      review of industry-leading AutoML tools to analyze their benefits and limitations
-      in software engineering contexts (IST 2025). I have contributed to understanding
-      MLOps practices by analyzing adoption patterns in open-source projects on GitHub
-      (ESEM 2022). This work revealed key challenges in transitioning ML models from
-      experimentation to production, leading to the development of an MLOps solution
-      framework applied in healthcare contexts (CAIN 2022). Finally, I have established
-      best practices for collaborative development of AI systems using computational
-      notebooks (CSCW 2021).'
     - '**Industry-based research on the state of software engineering practices**:
       I have participated in and continue to contribute to several industry-based
       global surveys to understand software engineering practices. The [*HELENA*](https://helenastudy.wordpress.com/helena-team)

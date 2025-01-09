@@ -33,7 +33,7 @@ endobj
 /ColorSpace <<
 /pgfprgb [ /Pattern /DeviceRGB ]
 >>
-/ProcSet [ /Text /ImageC /ImageB /PDF /ImageI ]
+/ProcSet [ /ImageC /ImageI /PDF /Text /ImageB ]
 >>
 /Annots [ 27 0 R ]
 /MediaBox [ 0 0 595.276 841.89 ]
@@ -856,7 +856,7 @@ endobj
 /ColorSpace <<
 /pgfprgb [ /Pattern /DeviceRGB ]
 >>
-/ProcSet [ /Text /ImageI /ImageC /ImageB /PDF ]
+/ProcSet [ /ImageI /PDF /ImageC /Text /ImageB ]
 >>
 /MediaBox [ 0 0 595.276 841.89 ]
 /Annots [ ]
@@ -2155,7 +2155,7 @@ endobj
 /F1 96 0 R
 /F2+0 97 0 R
 >>
-/ProcSet [ /Text /ImageC /ImageB /PDF /ImageI ]
+/ProcSet [ /ImageC /ImageI /PDF /Text /ImageB ]
 >>
 /Annots [ 101 0 R 102 0 R 103 0 R 104 0 R 105 0 R 106 0 R 107 0 R 108 0 R 109 0 R ]
 /MediaBox [ 0 0 595.276 841.89 ]
@@ -4155,7 +4155,7 @@ endobj
 /F1 112 0 R
 /F2+0 113 0 R
 >>
-/ProcSet [ /Text /ImageC /ImageB /PDF /ImageI ]
+/ProcSet [ /ImageC /ImageI /PDF /Text /ImageB ]
 >>
 /Annots [ 117 0 R 118 0 R ]
 /MediaBox [ 0 0 595.276 841.89 ]
@@ -4202,62 +4202,11 @@ BT
 0 G
 /F70 9.9626 Tf
 0 -17.625 Td
-[ (AI) -328 (Safety) -327 (and) -328 (R) 37 (egulatory) -327 (Compliance) -328 (in) -327 (Healthcare) -328 (Systems) ] TJ
-/F68 9.9626 Tf
-279.848 0 Td
-[ (\072) -415 (One) -313 (of) -312 (my) -313 (current) -313 (research) -313 (interests) -313 (focuses) ] TJ
--279.848 -11.955 Td
-[ (on) -306 (developing) -306 (frameworks) -306 (and) -307 (methodologies) -306 (for) -306 (ensuring) -306 (continuous) -306 (compliance) -306 (and) -306 (safety) -306 (of) -307 (AI) -306 (systems) -306 (in) ] TJ
-0 -11.955 Td
-[ (regulated) -270 (healthcare) -271 (environments\056) -342 (This) -271 (research) -270 (addresses) -271 (the) -270 (challenge) -270 (of) -271 (maintaining) -270 (regulatory) -271 (adherence) ] TJ
-0 -11.955 Td
-[ (while) -390 (enabling) -390 (continuous) -389 (learning) -390 (in) -390 (medical) -390 (AI) -389 (applications\056) -681 (W) 69 (orking) -390 (with) -389 (medical) -390 (professionals) -390 (and) -390 (life) ] TJ
-0 -11.955 Td
-[ (science) -412 (researchers\054) -446 (I) -412 (am) -413 (developing) -412 (an) -412 (extended) -412 (MLOps) -413 (framework) -412 (that) -412 (integrates) -412 (automated) -413 (compliance) ] TJ
-0 -11.955 Td
-[ (veri\002cation\054) -372 (monitoring\054) -371 (and) -353 (ethical) -353 (oversight) -353 (throughout) -353 (the) -353 (AI) -352 (system) -353 (lifecycle\056) -570 (The) -353 (framework) -353 (introduces) ] TJ
-0 -11.956 Td
-[ (systematic) -250 (approaches) -251 (for) -250 (bias) -250 (detection\054) -256 (fairness) -251 (assessment\054) -255 (and) -251 (performance) -250 (monitoring) -250 (across) -251 (demographic) ] TJ
-0 -11.955 Td
-[ (groups\054) -433 (bridging) -402 (the) -403 (gap) -402 (between) -402 (responsible) -402 (AI) -402 (principles) -403 (and) -402 (clinical) -402 (implementation) -402 (requirements\056) -718 (This) ] TJ
-0 -11.955 Td
-[ (work) -305 (has) -304 (fostered) -305 (collaborations) -305 (with) -304 (healthcare) -305 (institutions) -305 (and) -304 (secured) -305 (funding) -304 (through) -305 (national) -305 (initiatives\054) ] TJ
-0 -11.955 Td
-[ (including) -278 (the) -278 (D) 19 (ARE) -278 (project) -278 (\050) ] TJ
-ET
-q
-1 0 0 1 182.153 537.281 cm
-[ ] 0 d
-0 J
-0.608 w
-0 0 m
-4.722 0 l
-S
-Q
-q
-1 0 0 1 182.153 536.086 cm
-[ ] 0 d
-0 J
-0.608 w
-0 0 m
-4.403 0 l
-S
-Q
-BT
-/F68 9.9626 Tf
-182.651 533.042 Td
-[ (C130\0565M\051) -278 (for) -278 (digital) -278 (preventive) -278 (healthcare) -278 (solutions\056) ] TJ
-0 g
-0 G
-0 g
-0 G
-/F70 9.9626 Tf
--125.958 -17.624 Td
 [ (Software) -229 (engineering) -229 (for) -228 (AI\055enabled) -229 (systems) ] TJ
 /F68 9.9626 Tf
 204.643 0 Td
 [ (\072) -315 (One) -219 (of) -218 (my) -219 (recent) -218 (research) -218 (interests) -219 (is) -218 (focused) -219 (on) -218 (improving) -219 (the) ] TJ
--204.643 -11.956 Td
+-204.643 -11.955 Td
 [ (development) -297 (work\003ows) -296 (of) -297 (AI\057ML\055based) -297 (systems) -297 (through) -296 (empirical) -297 (studies) -297 (and) -296 (tool) -297 (development\056) -401 (I) -297 (conducted) ] TJ
 0 -11.955 Td
 [ (a) -310 (comprehensive) -311 (review) -310 (of) -311 (industry\055leading) -310 (AutoML) -310 (tools) -311 (to) -310 (analyze) -311 (their) -310 (bene\002ts) -311 (and) -310 (limitations) -310 (in) -311 (software) ] TJ
@@ -4267,9 +4216,9 @@ BT
 [ (patterns) -334 (in) -334 (open\055source) -335 (projects) -334 (on) -334 (GitHub) -334 (\050ESEM) -335 (2022\051\056) -513 (This) -335 (work) -334 (revealed) -334 (key) -334 (challenges) -334 (in) -335 (transitioning) ] TJ
 0 -11.955 Td
 [ (ML) -307 (models) -306 (from) -307 (experimentation) -306 (to) -307 (production\054) -313 (leading) -307 (to) -306 (the) -307 (development) -307 (of) -306 (an) -307 (MLOps) -306 (solution) -307 (framework) ] TJ
-0 -11.955 Td
-[ (applied) -541 (in) -541 (healthcare) -542 (contexts) -541 (\050C) 19 (AIN) -541 (2022\051\056) -1134 (Finally) 134 (\054) -607 (I) -541 (have) -541 (established) -541 (best) -541 (practices) -542 (for) -541 (collaborative) ] TJ
 0 -11.956 Td
+[ (applied) -541 (in) -541 (healthcare) -542 (contexts) -541 (\050C) 19 (AIN) -541 (2022\051\056) -1134 (Finally) 134 (\054) -607 (I) -541 (have) -541 (established) -541 (best) -541 (practices) -542 (for) -541 (collaborative) ] TJ
+0 -11.955 Td
 [ (development) -278 (of) -278 (AI) -278 (systems) -278 (using) -278 (computational) -278 (notebooks) -278 (\050C) -19 (SCW) -278 (2021\051\056) ] TJ
 0 g
 0 G
@@ -4277,6 +4226,57 @@ BT
 0 G
 /F70 9.9626 Tf
 0 -17.624 Td
+[ (AI) -328 (Safety) -327 (and) -328 (R) 37 (egulatory) -327 (Compliance) -328 (in) -327 (Healthcare) -328 (Systems) ] TJ
+/F68 9.9626 Tf
+279.848 0 Td
+[ (\072) -415 (One) -313 (of) -312 (my) -313 (current) -313 (research) -313 (interests) -313 (focuses) ] TJ
+-279.848 -11.955 Td
+[ (on) -306 (developing) -306 (frameworks) -306 (and) -307 (methodologies) -306 (for) -306 (ensuring) -306 (continuous) -306 (compliance) -306 (and) -306 (safety) -306 (of) -307 (AI) -306 (systems) -306 (in) ] TJ
+0 -11.955 Td
+[ (regulated) -270 (healthcare) -271 (environments\056) -342 (This) -271 (research) -270 (addresses) -271 (the) -270 (challenge) -270 (of) -271 (maintaining) -270 (regulatory) -271 (adherence) ] TJ
+0 -11.956 Td
+[ (while) -390 (enabling) -390 (continuous) -389 (learning) -390 (in) -390 (medical) -390 (AI) -389 (applications\056) -681 (W) 69 (orking) -390 (with) -389 (medical) -390 (professionals) -390 (and) -390 (life) ] TJ
+0 -11.955 Td
+[ (science) -412 (researchers\054) -446 (I) -412 (am) -413 (developing) -412 (an) -412 (extended) -412 (MLOps) -413 (framework) -412 (that) -412 (integrates) -412 (automated) -413 (compliance) ] TJ
+0 -11.955 Td
+[ (veri\002cation\054) -372 (monitoring\054) -371 (and) -353 (ethical) -353 (oversight) -353 (throughout) -353 (the) -353 (AI) -352 (system) -353 (lifecycle\056) -570 (The) -353 (framework) -353 (introduces) ] TJ
+0 -11.955 Td
+[ (systematic) -250 (approaches) -251 (for) -250 (bias) -250 (detection\054) -256 (fairness) -251 (assessment\054) -255 (and) -251 (performance) -250 (monitoring) -250 (across) -251 (demographic) ] TJ
+0 -11.955 Td
+[ (groups\054) -433 (bridging) -402 (the) -403 (gap) -402 (between) -402 (responsible) -402 (AI) -402 (principles) -403 (and) -402 (clinical) -402 (implementation) -402 (requirements\056) -718 (This) ] TJ
+0 -11.956 Td
+[ (work) -305 (has) -304 (fostered) -305 (collaborations) -305 (with) -304 (healthcare) -305 (institutions) -305 (and) -304 (secured) -305 (funding) -304 (through) -305 (national) -305 (initiatives\054) ] TJ
+0 -11.955 Td
+[ (including) -278 (the) -278 (D) 19 (ARE) -278 (project) -278 (\050) ] TJ
+ET
+q
+1 0 0 1 182.153 435.971 cm
+[ ] 0 d
+0 J
+0.608 w
+0 0 m
+4.722 0 l
+S
+Q
+q
+1 0 0 1 182.153 434.775 cm
+[ ] 0 d
+0 J
+0.608 w
+0 0 m
+4.403 0 l
+S
+Q
+BT
+/F68 9.9626 Tf
+182.651 431.731 Td
+[ (C130\0565M\051) -278 (for) -278 (digital) -278 (preventive) -278 (healthcare) -278 (solutions\056) ] TJ
+0 g
+0 G
+0 g
+0 G
+/F70 9.9626 Tf
+-125.958 -17.624 Td
 [ (Industry\055based) -272 (research) -272 (on) -272 (the) -273 (state) -272 (of) -272 (software) -272 (engineering) -272 (practices) ] TJ
 /F68 9.9626 Tf
 324.025 0 Td
@@ -4320,7 +4320,7 @@ BT
 0 -11.955 Td
 [ (in) -395 (R) 37 (equirements) -394 (Engineering\056) -695 (Through) -394 (biannual) -395 (surveys\054) -423 (our) -395 (large\055scale) -394 (academic) -395 (collaboration) -394 (develops) -395 (a) ] TJ
 0 -11.955 Td
-[ (holistic) -451 (theory) -451 (of) -451 (RE) -450 (practices) -451 (and) -451 (problems\054) -494 (producing) -451 (insights) -451 (that) -451 (guide) -451 (problem\055driven) -451 (research\056) -864 (The) ] TJ
+[ (holistic) -451 (theory) -451 (of) -451 (RE) -451 (practices) -450 (and) -451 (problems\054) -494 (producing) -451 (insights) -451 (that) -451 (guide) -451 (problem\055driven) -451 (research\056) -864 (The) ] TJ
 /F72 9.9626 Tf
 0 -11.956 Td
 [ (Evolution) -399 (of) -399 (P) 51 (ost\055P) 37 (andemic) -398 (W) 51 (ork) -399 (P) 51 (olicies) ] TJ
@@ -4561,7 +4561,7 @@ endobj
 /F1 126 0 R
 /F2+0 127 0 R
 >>
-/ProcSet [ /Text /ImageC /ImageB /PDF /ImageI ]
+/ProcSet [ /ImageC /ImageI /PDF /Text /ImageB ]
 >>
 /Annots [ 131 0 R 132 0 R 133 0 R 134 0 R 135 0 R 136 0 R 137 0 R ]
 /MediaBox [ 0 0 595.276 841.89 ]
@@ -5312,7 +5312,7 @@ endobj
 /F1 140 0 R
 /F2+0 141 0 R
 >>
-/ProcSet [ /Text /ImageC /ImageB /PDF /ImageI ]
+/ProcSet [ /ImageC /ImageI /PDF /Text /ImageB ]
 >>
 /Annots [ 145 0 R 146 0 R 147 0 R 148 0 R 149 0 R 150 0 R 151 0 R 152 0 R 153 0 R 154 0 R 155 0 R ]
 /MediaBox [ 0 0 595.276 841.89 ]
@@ -6105,7 +6105,7 @@ endobj
 /F1 158 0 R
 /F2+0 159 0 R
 >>
-/ProcSet [ /Text /ImageC /ImageB /PDF /ImageI ]
+/ProcSet [ /ImageC /ImageI /PDF /Text /ImageB ]
 >>
 /Annots [ 163 0 R 164 0 R 165 0 R 166 0 R 167 0 R 168 0 R 169 0 R 170 0 R 171 0 R 172 0 R 173 0 R 174 0 R 175 0 R ]
 /MediaBox [ 0 0 595.276 841.89 ]
@@ -6992,7 +6992,7 @@ endobj
 /F1 178 0 R
 /F2+0 179 0 R
 >>
-/ProcSet [ /Text /ImageC /ImageB /PDF /ImageI ]
+/ProcSet [ /ImageC /ImageI /PDF /Text /ImageB ]
 >>
 /Annots [ 183 0 R 184 0 R 185 0 R 186 0 R ]
 /MediaBox [ 0 0 595.276 841.89 ]
@@ -7662,7 +7662,7 @@ endobj
 /F1 189 0 R
 /F2+0 190 0 R
 >>
-/ProcSet [ /Text /ImageC /ImageB /PDF /ImageI ]
+/ProcSet [ /ImageC /ImageI /PDF /Text /ImageB ]
 >>
 /Annots [ 194 0 R ]
 /MediaBox [ 0 0 595.276 841.89 ]
@@ -8256,7 +8256,7 @@ endobj
 /F1 197 0 R
 /F2+0 198 0 R
 >>
-/ProcSet [ /Text /ImageC /ImageB /PDF /ImageI ]
+/ProcSet [ /ImageC /ImageI /PDF /Text /ImageB ]
 >>
 /Annots [ 202 0 R ]
 /MediaBox [ 0 0 595.276 841.89 ]
@@ -8909,7 +8909,7 @@ endobj
 /F1 205 0 R
 /F2+0 206 0 R
 >>
-/ProcSet [ /Text /ImageC /ImageB /PDF /ImageI ]
+/ProcSet [ /ImageC /ImageI /PDF /Text /ImageB ]
 >>
 /Annots [ 210 0 R ]
 /MediaBox [ 0 0 595.276 841.89 ]
@@ -9517,7 +9517,7 @@ endobj
 /F1 213 0 R
 /F2+0 214 0 R
 >>
-/ProcSet [ /Text /ImageC /ImageB /PDF /ImageI ]
+/ProcSet [ /ImageC /ImageI /PDF /Text /ImageB ]
 >>
 /Annots [ 218 0 R 219 0 R 220 0 R 221 0 R 222 0 R 223 0 R 224 0 R 225 0 R 226 0 R 227 0 R 228 0 R ]
 /MediaBox [ 0 0 595.276 841.89 ]
@@ -10520,7 +10520,7 @@ endobj
 /F1 231 0 R
 /F2+0 232 0 R
 >>
-/ProcSet [ /Text /ImageC /ImageB /PDF /ImageI ]
+/ProcSet [ /ImageC /ImageI /PDF /Text /ImageB ]
 >>
 /Annots [ 236 0 R 237 0 R 238 0 R 239 0 R 240 0 R 241 0 R 242 0 R 243 0 R 244 0 R 245 0 R 246 0 R 247 0 R 248 0 R 249 0 R ]
 /MediaBox [ 0 0 595.276 841.89 ]
@@ -11319,7 +11319,7 @@ endobj
 /F1 252 0 R
 /F2+0 253 0 R
 >>
-/ProcSet [ /Text /ImageC /ImageB /PDF /ImageI ]
+/ProcSet [ /ImageC /ImageI /PDF /Text /ImageB ]
 >>
 /Annots [ 257 0 R 258 0 R 259 0 R 260 0 R 261 0 R 262 0 R 263 0 R 264 0 R 265 0 R 266 0 R 267 0 R 268 0 R 269 0 R 270 0 R 271 0 R 272 0 R 273 0 R 274 0 R 275 0 R 276 0 R 277 0 R 278 0 R 279 0 R 280 0 R 281 0 R ]
 /MediaBox [ 0 0 595.276 841.89 ]
@@ -12477,7 +12477,7 @@ endobj
 /F1 284 0 R
 /F2+0 285 0 R
 >>
-/ProcSet [ /Text /ImageC /ImageB /PDF /ImageI ]
+/ProcSet [ /ImageC /ImageI /PDF /Text /ImageB ]
 >>
 /Annots [ 289 0 R 290 0 R 291 0 R 292 0 R 293 0 R 294 0 R 295 0 R 296 0 R 297 0 R 298 0 R 299 0 R 300 0 R 301 0 R 302 0 R 303 0 R 304 0 R 305 0 R 306 0 R 307 0 R 308 0 R 309 0 R 310 0 R 311 0 R 312 0 R 313 0 R 314 0 R 315 0 R 316 0 R 317 0 R ]
 /MediaBox [ 0 0 595.276 841.89 ]
@@ -13707,7 +13707,7 @@ endobj
 /F1 320 0 R
 /F2+0 321 0 R
 >>
-/ProcSet [ /Text /ImageC /ImageB /PDF /ImageI ]
+/ProcSet [ /ImageC /ImageI /PDF /Text /ImageB ]
 >>
 /Annots [ 325 0 R 326 0 R 327 0 R ]
 /MediaBox [ 0 0 595.276 841.89 ]
@@ -14384,7 +14384,7 @@ endobj
 /F1 330 0 R
 /F2+0 331 0 R
 >>
-/ProcSet [ /Text /ImageC /ImageB /PDF /ImageI ]
+/ProcSet [ /ImageC /ImageI /PDF /Text /ImageB ]
 >>
 /Annots [ 335 0 R 336 0 R 337 0 R 338 0 R 339 0 R 340 0 R 341 0 R ]
 /MediaBox [ 0 0 595.276 841.89 ]
@@ -14894,7 +14894,7 @@ endobj
 /F1 403 0 R
 /F2+0 404 0 R
 >>
-/ProcSet [ /Text /ImageC /ImageB /PDF /ImageI ]
+/ProcSet [ /ImageC /ImageI /PDF /Text /ImageB ]
 >>
 /Annots [ 408 0 R 409 0 R 410 0 R 411 0 R 412 0 R 413 0 R 414 0 R 415 0 R 416 0 R 417 0 R 418 0 R 419 0 R 420 0 R 421 0 R 422 0 R 423 0 R 424 0 R 425 0 R 426 0 R 427 0 R 428 0 R 429 0 R 430 0 R 431 0 R 432 0 R 433 0 R 434 0 R 435 0 R ]
 /MediaBox [ 0 0 595.276 841.89 ]
@@ -17330,7 +17330,7 @@ endobj
 /F1 438 0 R
 /F2+0 439 0 R
 >>
-/ProcSet [ /Text /ImageC /ImageB /PDF /ImageI ]
+/ProcSet [ /ImageC /ImageI /PDF /Text /ImageB ]
 >>
 /Annots [ 443 0 R 444 0 R 445 0 R 446 0 R 447 0 R 448 0 R 449 0 R 450 0 R 451 0 R 452 0 R 453 0 R 454 0 R 455 0 R 456 0 R 457 0 R 458 0 R 459 0 R 460 0 R 461 0 R 462 0 R 463 0 R 464 0 R 465 0 R 466 0 R 467 0 R 468 0 R 469 0 R 470 0 R 471 0 R 472 0 R 473 0 R 474 0 R ]
 /MediaBox [ 0 0 595.276 841.89 ]
@@ -18697,7 +18697,7 @@ endobj
 /F1 477 0 R
 /F2+0 478 0 R
 >>
-/ProcSet [ /Text /ImageC /ImageB /PDF /ImageI ]
+/ProcSet [ /ImageC /ImageI /PDF /Text /ImageB ]
 >>
 /Annots [ 482 0 R 483 0 R 484 0 R 485 0 R 486 0 R 487 0 R 488 0 R 489 0 R 490 0 R 491 0 R 492 0 R 493 0 R 494 0 R 495 0 R 496 0 R 497 0 R 498 0 R 499 0 R 500 0 R 501 0 R ]
 /MediaBox [ 0 0 595.276 841.89 ]
@@ -19689,7 +19689,7 @@ endobj
 /F1 504 0 R
 /F2+0 505 0 R
 >>
-/ProcSet [ /Text /ImageC /ImageB /PDF /ImageI ]
+/ProcSet [ /ImageC /ImageI /PDF /Text /ImageB ]
 >>
 /Annots [ 509 0 R 510 0 R 511 0 R 512 0 R 513 0 R 514 0 R 515 0 R 516 0 R 517 0 R 518 0 R 519 0 R 520 0 R 521 0 R 522 0 R 523 0 R 524 0 R 525 0 R 526 0 R ]
 /MediaBox [ 0 0 595.276 841.89 ]
@@ -20581,7 +20581,7 @@ endobj
 /F1 529 0 R
 /F2+0 530 0 R
 >>
-/ProcSet [ /Text /ImageC /ImageB /PDF /ImageI ]
+/ProcSet [ /ImageC /ImageI /PDF /Text /ImageB ]
 >>
 /Annots [ 534 0 R 535 0 R 536 0 R 537 0 R 538 0 R 539 0 R 540 0 R 541 0 R 542 0 R 543 0 R 544 0 R 545 0 R 546 0 R 547 0 R 548 0 R 549 0 R 550 0 R 551 0 R 552 0 R ]
 /MediaBox [ 0 0 595.276 841.89 ]
@@ -21528,7 +21528,7 @@ endobj
 /F1 555 0 R
 /F2+0 556 0 R
 >>
-/ProcSet [ /Text /ImageC /ImageB /PDF /ImageI ]
+/ProcSet [ /ImageC /ImageI /PDF /Text /ImageB ]
 >>
 /Annots [ 560 0 R 561 0 R 562 0 R 563 0 R 564 0 R 565 0 R 566 0 R 567 0 R 568 0 R 569 0 R 570 0 R 571 0 R 572 0 R 573 0 R 574 0 R 575 0 R 576 0 R 577 0 R 578 0 R 579 0 R 580 0 R 581 0 R 582 0 R 583 0 R ]
 /MediaBox [ 0 0 595.276 841.89 ]
@@ -22623,7 +22623,7 @@ endobj
 /F1 586 0 R
 /F2+0 587 0 R
 >>
-/ProcSet [ /Text /ImageC /ImageB /PDF /ImageI ]
+/ProcSet [ /ImageC /ImageI /PDF /Text /ImageB ]
 >>
 /Annots [ 591 0 R 592 0 R 593 0 R 594 0 R 595 0 R 596 0 R 597 0 R 598 0 R 599 0 R 600 0 R 601 0 R 602 0 R 603 0 R 604 0 R 605 0 R 606 0 R 607 0 R 608 0 R ]
 /MediaBox [ 0 0 595.276 841.89 ]
@@ -23579,7 +23579,7 @@ endobj
 /F1 611 0 R
 /F2+0 612 0 R
 >>
-/ProcSet [ /Text /ImageC /ImageB /PDF /ImageI ]
+/ProcSet [ /ImageC /ImageI /PDF /Text /ImageB ]
 >>
 /Annots [ 616 0 R 617 0 R 618 0 R 619 0 R 620 0 R 621 0 R 622 0 R 623 0 R 624 0 R 625 0 R 626 0 R 627 0 R 628 0 R 629 0 R 630 0 R 631 0 R 632 0 R 633 0 R ]
 /MediaBox [ 0 0 595.276 841.89 ]
@@ -24524,7 +24524,7 @@ endobj
 /F1 636 0 R
 /F2+0 637 0 R
 >>
-/ProcSet [ /Text /ImageC /ImageB /PDF /ImageI ]
+/ProcSet [ /ImageC /ImageI /PDF /Text /ImageB ]
 >>
 /Annots [ 641 0 R 642 0 R 643 0 R 644 0 R 645 0 R 646 0 R 647 0 R 648 0 R 649 0 R 650 0 R 651 0 R 652 0 R ]
 /MediaBox [ 0 0 595.276 841.89 ]
@@ -25305,7 +25305,7 @@ endobj
 /XObject <<
 /Im1 660 0 R
 >>
-/ProcSet [ /Text /ImageI /ImageC /ImageB /PDF ]
+/ProcSet [ /ImageI /PDF /ImageC /ImageB /Text ]
 >>
 /MediaBox [ 0 0 612.0012 842.4017 ]
 /Annots [ ]
@@ -27016,7 +27016,7 @@ endobj
 /XObject <<
 /Im0 671 0 R
 >>
-/ProcSet [ /Text /ImageC /ImageB /PDF /ImageI ]
+/ProcSet [ /ImageI /PDF /Text /ImageC /ImageB ]
 >>
 /CropBox [ 0 0 612 842.4 ]
 /MediaBox [ 0 0 612 842.4 ]
