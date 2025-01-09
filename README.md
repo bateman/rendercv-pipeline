@@ -110,6 +110,11 @@ My research primarily focuses on the intersection of Software Engineering and AI
 - Inf. Softw. Technol., vol. 178, doi:[10.1016/J.INFSOF.2024.107608](https://doi.org/10.1016/J.INFSOF.2024.107608) 
 - Rank: SJR Q1
 
+## A lot of talk and a badge: An exploratory analysis of personal achievements in GitHub  (2024) 
+- ***F. Calefato***, L. Quaranta, F. Lanubile
+- Inf. Softw. Technol., vol. 176, doi:[10.1016/J.INFSOF.2024.107561](https://doi.org/10.1016/J.INFSOF.2024.107561) 
+- Rank: SJR Q1
+
 ## Generative AI in Software Engineering Must Be Human-Centered: The Copenhagen Manifesto  (2024) 
 - D. Russo, S. Baltes, N. Berkel, P. Avgeriou, ***F. Calefato***, B. Cabrero-Daniel, G. Catolino, J. Cito, N. Ernst, T. Fritz, H. Hata, R. Holmes, M. Izadi, F. Khomh, M. Kjærgaard, G. Liebel, A. Lluch-Lafuente, S. Lambiase, W. Maalej, G. Murphy, N. Moe, G. O'Brien, E. Paja, M. Pezzè, J. Persson, R. Prikladnicki, P. Ralph, M. Robillard, T. Silva, K.J. Stol, M.A. Storey, V. Stray, P. Tell, C. Treude, B. Vasilescu
 - J. Syst. Softw., vol. 216, doi:[10.1016/J.JSS.2024.112115](https://doi.org/10.1016/J.JSS.2024.112115) 
@@ -120,14 +125,152 @@ My research primarily focuses on the intersection of Software Engineering and AI
 - ACM/IEEE International Symposium on Empirical Software Engineering and Measurement, ESEM 2023, New Orleans, LA, USA, October 26-27, 2023, doi:[10.1109/ESEM56168.2023.10304796](https://doi.org/10.1109/ESEM56168.2023.10304796) 
 - Rank: ICORE A
 
+## Eliciting Best Practices for Collaboration with Computational Notebooks  (2022) 
+- L. Quaranta, ***F. Calefato***, F. Lanubile
+- Proc. ACM Hum. Comput. Interact., vol. 6, no. CSCW1, doi:[10.1145/3512934](https://doi.org/10.1145/3512934) 
+- Rank: ICORE A
+
+## Using Personality Detection Tools for Software Engineering Research: How Far Can We Go?  (2022) 
+- ***F. Calefato***, F. Lanubile
+- ACM Trans. Softw. Eng. Methodol., vol. 31, no. 3, doi:[10.1145/3491039](https://doi.org/10.1145/3491039) 
+- Rank: SJR Q1
+
+## What Makes Agile Software Development Agile?  (2022) 
+- M. Kuhrmann, P. Tell, R. Hebig, J. Klünder, J. Münch, O. Linssen, D. Pfahl, M. Felderer, C. Prause, S. MacDonell, J. Nakatumba-Nabende, D. Raffo, S. Beecham, E. Tüzün, G. López, N. Paez, D. Fontdevila, S. Licorish, S. Küpper, G. Ruhe, E. Knauss, Ö. Özcan-Top, P. Clarke, F. McCaffery, M. Genero, A. Vizcaíno, M. Piattini, M. Kalinowski, T. Conte, R. Prikladnicki, S. Krusche, A. Coskunçay, E. Scott, ***F. Calefato***, S. Pimonova, R.H. Pfeiffer, U. Schultz, R. Heldal, M. Fazal-Baqaie, C. Anslow, M. Nayebi, K. Schneider, S. Sauer, D. Winkler, S. Biffl, M. Bastarrica, I. Richardson
+- IEEE Trans. Software Eng., vol. 48, no. 9, doi:[10.1109/TSE.2021.3099532](https://doi.org/10.1109/TSE.2021.3099532) 
+- Rank: SJR Q1
+
+## Will you come back to contribute? Investigating the inactivity of OSS core developers in GitHub  (2022) 
+- ***F. Calefato***, M. Gerosa, G. Iaffaldano, F. Lanubile, I. Steinmacher
+- Empir. Softw. Eng., vol. 27, no. 3, doi:[10.1007/S10664-021-10012-6](https://doi.org/10.1007/S10664-021-10012-6) 
+- Rank: SJR Q1
+
+## A Preliminary Investigation of MLOps Practices in GitHub  (2022) 
+- ***F. Calefato***, F. Lanubile, L. Quaranta
+- ESEM '22: ACM / IEEE International Symposium on Empirical Software Engineering and Measurement, Helsinki, Finland, September 19 - 23, 2022, doi:[10.1145/3544902.3546636](https://doi.org/10.1145/3544902.3546636) 
+- Rank: ICORE A
+
+## Pynblint: a static analyzer for Python Jupyter notebooks  (2022) 
+- L. Quaranta, ***F. Calefato***, F. Lanubile
+- Proceedings of the 1st International Conference on AI Engineering: Software Engineering for AI, CAIN 2022, Pittsburgh, Pennsylvania, May 16-17, 2022, doi:[10.1145/3522664.3528612](https://doi.org/10.1145/3522664.3528612) 
+
+## An In-Depth Analysis of Occasional and Recurring Collaborations in Online Music Co-creation  (2021) 
+- ***F. Calefato***, G. Iaffaldano, L. Trisolini, F. Lanubile
+- ACM Trans. Soc. Comput., vol. 4, no. 4, doi:[10.1145/3493800](https://doi.org/10.1145/3493800) 
+
+## Assessment of off-the-shelf SE-specific sentiment analysis tools: An extended replication study  (2021) 
+- N. Novielli, ***F. Calefato***, F. Lanubile, A. Serebrenik
+- Empir. Softw. Eng., vol. 26, no. 4, doi:[10.1007/S10664-021-09960-W](https://doi.org/10.1007/S10664-021-09960-W) 
+- Rank: SJR Q1
+
 ## Towards Productizing AI/ML Models: An Industry Perspective from Data Scientists  (2021) 
 - F. Lanubile, ***F. Calefato***, L. Quaranta, M. Amoruso, F. Fumarola, M. Filannino
 - 1st IEEE/ACM Workshop on AI Engineering - Software Engineering for AI, WAIN@ICSE 2021, Madrid, Spain, May 30-31, 2021, doi:[10.1109/WAIN52551.2021.00027](https://doi.org/10.1109/WAIN52551.2021.00027) 
 
-## Love, Joy, Anger, Sadness, Fear, and Surprise - SE Needs Special Kinds of AI: A Case Study on Text Mining and SE  (2020) 
+## Love, Joy, Anger, Sadness, Fear, and Surprise: SE Needs Special Kinds of AI: A Case Study on Text Mining and SE  (2020) 
 - N. Novielli, ***F. Calefato***, F. Lanubile
 - IEEE Softw., vol. 37, no. 3, doi:[10.1109/MS.2020.2968557](https://doi.org/10.1109/MS.2020.2968557) 
 - Rank: SJR Q2
+
+## Can We Use SE-specific Sentiment Analysis Tools in a Cross-Platform Setting?  (2020) 
+- N. Novielli, ***F. Calefato***, D. Dongiovanni, D. Girardi, F. Lanubile
+- MSR '20: 17th International Conference on Mining Software Repositories, Seoul, Republic of Korea, 29-30 June, 2020, doi:[10.1145/3379597.3387446](https://doi.org/10.1145/3379597.3387446) 
+- Rank: ICORE A
+
+## A large-scale, in-depth analysis of developers' personalities in the Apache ecosystem  (2019) 
+- ***F. Calefato***, F. Lanubile, B. Vasilescu
+- Inf. Softw. Technol., vol. 114, doi:[10.1016/J.INFSOF.2019.05.012](https://doi.org/10.1016/J.INFSOF.2019.05.012) 
+- Rank: SJR Q1
+
+## RECODE: revision control for digital images  (2019) 
+- ***F. Calefato***, G. Castellano, V. Rossano
+- Multim. Tools Appl., vol. 78, no. 23, doi:[10.1007/S11042-019-7735-9](https://doi.org/10.1007/S11042-019-7735-9) 
+- Rank: SJR Q2
+
+## An empirical assessment of best-answer prediction models in technical Q&A sites  (2019) 
+- ***F. Calefato***, F. Lanubile, N. Novielli
+- Empir. Softw. Eng., vol. 24, no. 2, doi:[10.1007/S10664-018-9642-5](https://doi.org/10.1007/S10664-018-9642-5) 
+- Rank: SJR Q1
+
+## Agile Collaboration for Distributed Teams [Software Technology]  (2019) 
+- ***F. Calefato***, C. Ebert
+- IEEE Softw., vol. 36, no. 1, doi:[10.1109/MS.2018.2874668](https://doi.org/10.1109/MS.2018.2874668) 
+- Rank: SJR Q2
+
+## How to ask for technical help? Evidence-based guidelines for writing questions on Stack Overflow  (2018) 
+- ***F. Calefato***, F. Lanubile, N. Novielli
+- Inf. Softw. Technol., vol. 94, doi:[10.1016/J.INFSOF.2017.10.009](https://doi.org/10.1016/J.INFSOF.2017.10.009) 
+- Rank: SJR Q1
+
+## Investigating Crowd Creativity in Online Music Communities  (2018) 
+- ***F. Calefato***, G. Iaffaldano, F. Lanubile, F. Maiorano
+- Proc. ACM Hum. Comput. Interact., vol. 2, no. CSCW, doi:[10.1145/3274296](https://doi.org/10.1145/3274296) 
+- Rank: ICORE A
+
+## Assessing the impact of real-time machine translation on multilingual meetings in global software projects  (2016) 
+- ***F. Calefato***, F. Lanubile, T. Conte, R. Prikladnicki
+- Empir. Softw. Eng., vol. 21, no. 3, doi:[10.1007/S10664-015-9372-X](https://doi.org/10.1007/S10664-015-9372-X) 
+- Rank: SJR Q1
+
+## Moving to Stack Overflow: Best-Answer Prediction in Legacy Developer Forums  (2016) 
+- ***F. Calefato***, F. Lanubile, N. Novielli
+- Proceedings of the 10th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement, ESEM 2016, Ciudad Real, Spain, September 8-9, 2016, doi:[10.1145/2961111.2962585](https://doi.org/10.1145/2961111.2962585) 
+- Rank: ICORE A
+
+## The role of social media in affective trust building in customer-supplier relationships  (2015) 
+- ***F. Calefato***, F. Lanubile, N. Novielli
+- Electron. Commer. Res., vol. 15, no. 4, doi:[10.1007/S10660-015-9194-3](https://doi.org/10.1007/S10660-015-9194-3) 
+- Rank: SJR Q2
+
+## Cost Savings in Global Software Engineering: Where's the Evidence?  (2015) 
+- D. Smite, ***F. Calefato***, C. Wohlin
+- IEEE Softw., vol. 32, no. 4, doi:[10.1109/MS.2015.102](https://doi.org/10.1109/MS.2015.102) 
+- Rank: SJR Q2
+
+## Mining Successful Answers in Stack Overflow  (2015) 
+- ***F. Calefato***, F. Lanubile, M. Marasciulo, N. Novielli
+- 12th IEEE/ACM Working Conference on Mining Software Repositories, MSR 2015, Florence, Italy, May 16-17, 2015, doi:[10.1109/MSR.2015.56](https://doi.org/10.1109/MSR.2015.56) 
+- Rank: ICORE A
+
+## Speech Recognition for Voice-Based Machine Translation  (2014) 
+- T. Duarte, R. Prikladnicki, ***F. Calefato***, F. Lanubile
+- IEEE Softw., vol. 31, no. 1, doi:[10.1109/MS.2014.14](https://doi.org/10.1109/MS.2014.14) 
+- Rank: SJR Q2
+
+## An empirical simulation-based study of real-time speech translation for multilingual global project teams  (2014) 
+- ***F. Calefato***, F. Lanubile, R. Prikladnicki, J. Pinto
+- 2014 ACM-IEEE International Symposium on Empirical Software Engineering and Measurement, ESEM '14, Torino, Italy, September 18-19, 2014, doi:[10.1145/2652524.2652537](https://doi.org/10.1145/2652524.2652537) 
+- Rank: ICORE A
+
+## Group Awareness in Global Software Engineering  (2013) 
+- F. Lanubile, ***F. Calefato***, C. Ebert
+- IEEE Softw., vol. 30, no. 2, doi:[10.1109/MS.2013.30](https://doi.org/10.1109/MS.2013.30) 
+- Rank: SJR Q2
+
+## Computer-mediated communication to support distributed requirements elicitations and negotiations tasks  (2012) 
+- ***F. Calefato***, D. Damian, F. Lanubile
+- Empir. Softw. Eng., vol. 17, no. 6, doi:[10.1007/S10664-011-9179-3](https://doi.org/10.1007/S10664-011-9179-3) 
+- Rank: SJR Q1
+
+## Assessing the impact of real-time machine translation on requirements meetings: a replicated experiment  (2012) 
+- ***F. Calefato***, F. Lanubile, T. Conte, R. Prikladnicki
+- 2012 ACM-IEEE International Symposium on Empirical Software Engineering and Measurement, ESEM '12, Lund, Sweden - September 19 - 20, 2012, doi:[10.1145/2372251.2372299](https://doi.org/10.1145/2372251.2372299) 
+- Rank: ICORE A
+
+## Investigating the use of tags in collaborative development environments: a replicated study  (2010) 
+- ***F. Calefato***, D. Gendarmi, F. Lanubile
+- Proceedings of the International Symposium on Empirical Software Engineering and Measurement, ESEM 2010, 16-17 September 2010, Bolzano/Bozen, Italy, doi:[10.1145/1852786.1852818](https://doi.org/10.1145/1852786.1852818) 
+- Rank: ICORE A
+
+## Using frameworks to develop a distributed conferencing system: an experience report  (2009) 
+- ***F. Calefato***, F. Lanubile
+- Softw. Pract. Exp., vol. 39, no. 15, doi:[10.1002/SPE.937](https://doi.org/10.1002/SPE.937) 
+- Rank: SJR Q2
+
+## A Controlled Experiment on the Effects of Synchronicity in Remote Inspection Meetings  (2007) 
+- ***F. Calefato***, F. Lanubile, T. Mallardo
+- Proceedings of the First International Symposium on Empirical Software Engineering and Measurement, ESEM 2007, September 20-21, 2007, Madrid, Spain, doi:[10.1109/ESEM.2007.61](https://doi.org/10.1109/ESEM.2007.61) 
+- Rank: ICORE A
 
 # Ph.D. Students Supervision
 
