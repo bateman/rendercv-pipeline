@@ -101,7 +101,7 @@ My research primarily focuses on the intersection of Software Engineering and AI
 - Scopus: *h*-index 21, 1,500+ citations
 # Selected Publications
 
-## On the Self-admitted Use of LLMs in Open Source Software Projects  (2025 -- under review) 
+## On the Self-admitted Use of LLMs in Open Source Software Projects  (2025 - under review) 
 - T. Xiao, Y. Fan, ***F. Calefato***, R. Kula, C. Treude, H. Hata, S. Baltes
 - IEEE Transactions on Software Engineering 
 
@@ -124,7 +124,7 @@ My research primarily focuses on the intersection of Software Engineering and AI
 - F. Lanubile, ***F. Calefato***, L. Quaranta, M. Amoruso, F. Fumarola, M. Filannino
 - 1st IEEE/ACM Workshop on AI Engineering - Software Engineering for AI, WAIN@ICSE 2021, Madrid, Spain, May 30-31, 2021, doi:[10.1109/WAIN52551.2021.00027](https://doi.org/10.1109/WAIN52551.2021.00027) 
 
-## Love, Joy, Anger, Sadness, Fear, and Surprise -- SE Needs Special Kinds of AI: A Case Study on Text Mining and SE  (2020) 
+## Love, Joy, Anger, Sadness, Fear, and Surprise - SE Needs Special Kinds of AI: A Case Study on Text Mining and SE  (2020) 
 - N. Novielli, ***F. Calefato***, F. Lanubile
 - IEEE Softw., vol. 37, no. 3, doi:[10.1109/MS.2020.2968557](https://doi.org/10.1109/MS.2020.2968557) 
 - Rank: SJR Q2
