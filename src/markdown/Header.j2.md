@@ -1,4 +1,4 @@
-# <<cv.name>>
+# Contacts
 
 ((* if cv.phone *))
 - Phone: <<cv.phone|replace("tel:", "")|replace("-"," ")>>
