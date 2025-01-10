@@ -27,7 +27,7 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          if ! git diff --quiet HEAD src/bibliograpy/; then
+          if ! git diff --quiet HEAD -- src/bibliography/; then
             echo "changes_found=true" >> $GITHUB_OUTPUT
           else
             echo "changes_found=false" >> $GITHUB_OUTPUT
