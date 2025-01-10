@@ -37,5 +37,5 @@ jobs:
         if: steps.check_changes.outputs.changes_found == 'true'
         uses: benc-uk/workflow-dispatch@v1
         with:
-          workflow: redercv.yaml
+          workflow: rendercv.yaml
           token: ${{ secrets.GITHUB_TOKEN }}
