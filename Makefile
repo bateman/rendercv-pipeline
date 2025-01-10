@@ -21,6 +21,7 @@ RENDERCV := $(shell command -v rendercv 2> /dev/null)
 JEKYLL := $(shell command -v jekyll 2> /dev/null || echo -e "\033[31mnot installed\033[0m")
 BUNDLE := $(shell command -v bundle 2> /dev/null)
 LATEX := $(shell command -v pdflatex 2> /dev/null)
+TLMGR := $(shell command -v tlmgr 2> /dev/null)
 BIBER := $(shell command -v biber 2> /dev/null)
 PDFTK := $(shell command -v pdftk 2> /dev/null)
 
@@ -83,6 +84,7 @@ info:  ## Show development environment info
 	@echo -e "  $(CYAN)Git:$(RESET) $(GIT_VERSION)"
 	@echo -e "  $(CYAN)RenderCV:$(RESET) $(shell $(RENDERCV) --version || echo "$(RED)not installed $(RESET)")"
 	@echo -e "  $(CYAN)LaTeX:$(RESET) $(shell $(LATEX) --version | head -n 1 || echo "$(RED)not installed $(RESET)")"
+	@echo -e "  $(CYAN)tlmgr:$(RESET) $(shell $(TLMGR) --version | head -n 1 || echo "$(RED)not installed $(RESET)")"
 	@echo -e "  $(CYAN)biber:$(RESET) $(shell $(BIBER) --version || echo "$(RED)not installed $(RESET)")"
 	@echo -e "  $(CYAN)PDFtk:$(RESET) $(shell $(PDFTK) --version | head -n 1 || echo "$(RED)not installed $(RESET)")"
 	@echo -e "  $(CYAN)Jekyll:$(RESET) $(JEKYLL)"
@@ -138,10 +140,13 @@ project/install: virtualenv requirements.txt  ## Install the project
 	@if [ ! -f .python-version ]; then \
 		echo -e "$(RED)\nVirtual environment missing. Please run 'make virtualenv' first.$(RESET)"; \
 	else \
-		echo -e "$(CYAN)\nInstalling project dependencies...$(RESET)"; \
-		$(PYTHON) -m pip --upgrade pip; \
-		$(PYTHON) -m pip -r requirements.txt; \
+		echo -e "$(CYAN)\nInstalling Python dependencies...$(RESET)"; \
+		$(PYTHON) -m pip install --upgrade pip; \
+		$(PYTHON) -m pip install -r requirements.txt; \
 		echo -e "$(GREEN)Dependencies installed.$(RESET)"; \
+		echo -e "$(CYAN)\nInstalling LaTeX packages... (as admin) $(RESET)"; \
+		xargs sudo $(TLMGR) install < packages.txt; \
+		echo -e "$(GREEN)LaTeX packages installed.$(RESET)"; \
 	fi
 
 .PHONY: project/update
