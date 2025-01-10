@@ -1,0 +1,37 @@
+name: Update Biblio
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  update-biblio:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Run parsebib
+        run: python src/parsebib.py
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if ! git diff --quiet HEAD src/bibliograpy/; then
+            echo "changes_found=true" >> $GITHUB_OUTPUT
+          else
+            echo "changes_found=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Trigger redercv workflow
+        if: steps.check_changes.outputs.changes_found == 'true'
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: redercv.yaml
+          token: ${{ secrets.GITHUB_TOKEN }}
