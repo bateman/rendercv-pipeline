@@ -88,7 +88,9 @@ def add_page_numbers(
             can.setFillColor(color)
         except Exception:
             print("Warning, no or wrong color, falling back to default light gray")
-            can.setFillColor(Color(134 / 255, 134 / 255, 134 / 255, 1))  # Light gray #868686
+            can.setFillColor(
+                Color(134 / 255, 134 / 255, 134 / 255, 1)
+            )  # Light gray #868686
 
         # Set position for page number
         page_text = f"Page {page_num} of {total_pages}"
@@ -153,9 +155,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--bold", action="store_true", help="Use bold style (default: False)"
     )
-    parser.add_argument(
-        "--color", help="Color of the page numbers (default: gray)"
-    )
+    parser.add_argument("--color", help="Color of the page numbers (default: gray)")
 
     args = parser.parse_args()
 
