@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - 'application_letters/**'
   workflow_call: # to make the workflow triggerable from other workflows (release.yaml)
 
 permissions:
@@ -96,7 +98,6 @@ jobs:
               - '*.pdf'
               - '*.md'
               - 'docs/*.md'
-              - 'application_letters/*.pdf'
       - name: Push the changes
         if: steps.changes.outputs.cv == 'true'
         run: |
