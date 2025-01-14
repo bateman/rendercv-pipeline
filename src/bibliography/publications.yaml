@@ -155,6 +155,15 @@
           - A. Vitale
         date: 2024
         journal: "Joint Proceedings of RCIS 2024 Workshops and Research Projects Track co-located with the 18th International Conferecence on Research Challenges in Information Science (RCIS 2024), Guimarães, Portugal, May 14-17, 2024, vol. 3674"
+      - title: " An MLOps Approach for Deploying Machine Learning Models in Healthcare Systems "
+        authors:
+          - G. Mallardi
+          - "***F. Calefato***"
+          - L. Quaranta
+          - F. Lanubile
+        date: 2024
+        journal: "2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), vol. "
+        doi: 10.1109/BIBM62325.2024.10822603
       - title: "Assessing the Use of AutoML for Data-Driven Software Engineering"
         authors:
           - "***F. Calefato***"
