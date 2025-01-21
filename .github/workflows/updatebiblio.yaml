@@ -33,9 +33,9 @@ jobs:
             echo "changes_found=false" >> $GITHUB_OUTPUT
           fi
 
-      - name: Trigger redercv workflow
+      - name: Trigger rendercv workflow
         if: steps.check_changes.outputs.changes_found == 'true'
-        uses: benc-uk/workflow-dispatch@v1
+        uses: peter-evans/repository-dispatch@v3
         with:
-          workflow: rendercv.yaml
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}  # PAT required for workflow-to-workflow communication
+          event-type: bibliography-updated

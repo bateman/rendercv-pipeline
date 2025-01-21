@@ -7,6 +7,9 @@ on:
     paths-ignore:
       - 'application_letters/**'
   workflow_call: # to make the workflow triggerable from other workflows (release.yaml)
+  workflow_dispatch:  # manual trigger
+  repository_dispatch:
+    types: [bibliography-updated]  # triggered by updatebiblio.yaml
 
 permissions:
   contents: write
