@@ -521,33 +521,33 @@ My research primarily focuses on the intersection of Software Engineering and AI
 
 ## Associate Editor
 
-- Elsevier [*Journal of Systems and Software (JSS)*](https://www.sciencedirect.com/journal/journal-of-systems-and-software/about/editorial-board), rank: SJR Q1
+- Elsevier [*Journal of Systems and Software (JSS)*](https://www.sciencedirect.com/journal/journal-of-systems-and-software/about/editorial-board), rank: [SJR Q1](https://www.scimagojr.com/journalsearch.php?q=19309&tip=sid&clean=0)
 - Springer *[Automated Software Engineering (ASE)](https://link.springer.com/journal/10515/editorial-board)*
 
 ## Guest Editor
 
-- *2024*: Springer *Empirical Software Engineering (EMSE)*, rank: SJR Q1. Special Issue on ``Software Maintenance and Evolution.'' Co-editor: Sarah Nadi (New York University, Abu Dhabi)
-- *2023*: Springer *Empirical Software Engineering’ (EMSE*), rank: SJR Q1. Special Issue on [``Cooperative and Human Aspects of Software Engineering''](https://emsejournal.github.io/special_issues/2023_SI_CHASE.html). Co-editors: Hourieh Khalajzadeh (Deakin University, Australia) and Igor Steinmacher (NAU, USA)
-- *2021*: Elsevier *Journal of System and Software (JSS)*, rank: SJR Q1. Special Issue on [``Global Software Engineering: Challenges and Solutions.''](https://www.sciencedirect.com/journal/journal-of-systems-and-software/special-issue/10V2WHQCGWT) Vol. 174, Apr. 2021. Co-editors: Alpana Dubey (Accenture Labs, India), Christof Ebert (Vector Consulting, Germany), Paolo Tell (IT University of Copenhagen, Denmark)
+- *2024*: Springer *Empirical Software Engineering (EMSE)*, rank: [SJR Q1](https://www.scimagojr.com/journalsearch.php?q=18650&tip=sid&clean=0). Special Issue on ``Software Maintenance and Evolution.'' Co-editor: Sarah Nadi (New York University, Abu Dhabi)
+- *2023*: Springer *Empirical Software Engineering’ (EMSE*), rank: [SJR Q1](https://www.scimagojr.com/journalsearch.php?q=18650&tip=sid&clean=0). Special Issue on [``Cooperative and Human Aspects of Software Engineering''](https://emsejournal.github.io/special_issues/2023_SI_CHASE.html). Co-editors: Hourieh Khalajzadeh (Deakin University, Australia) and Igor Steinmacher (NAU, USA)
+- *2021*: Elsevier *Journal of System and Software (JSS)*, rank: [SJR Q1](https://www.scimagojr.com/journalsearch.php?q=19309&tip=sid&clean=0). Special Issue on [``Global Software Engineering: Challenges and Solutions.''](https://www.sciencedirect.com/journal/journal-of-systems-and-software/special-issue/10V2WHQCGWT) Vol. 174, Apr. 2021. Co-editors: Alpana Dubey (Accenture Labs, India), Christof Ebert (Vector Consulting, Germany), Paolo Tell (IT University of Copenhagen, Denmark)
 
 ## Review Board Member
 
-- *2023 – present*: Replicated Computational Results Distinguished Reviewers Board for ACM *Transactions on Software Engineering and Methodology (TOSEM)*, rank: SJR Q1
-- *2020 – 2022*: ACM *Transactions on Software Engineering and Methodology (TOSEM)*, rank: SJR Q1
-- *2015 – 2019*: Springer *Journal of Empirical Software Engineering (EMSE)*, rank: SJR Q1
+- *2023 – present*: Replicated Computational Results Distinguished Reviewers Board for ACM *Transactions on Software Engineering and Methodology (TOSEM)*, rank: [SJR Q1](https://www.scimagojr.com/journalsearch.php?q=18121&tip=sid&clean=0)
+- *2020 – 2022*: ACM *Transactions on Software Engineering and Methodology (TOSEM)*, rank: [SJR Q1](https://www.scimagojr.com/journalsearch.php?q=18121&tip=sid&clean=0)
+- *2015 – 2019*: Springer *Journal of Empirical Software Engineering (EMSE)*, rank: [SJR Q1](https://www.scimagojr.com/journalsearch.php?q=18650&tip=sid&clean=0)
 
 ## Peer Reviews (partial list)
 
 - **verified record on [Clarivate](https://www.webofscience.com/wos/author/record/H-4177-2014)**
-- (23) Springer *Journal of Empirical Software Engineering (EMSE)*, rank: SJR Q1
-- (19) IEEE *Transactions on Software Engineering (TSE)*, rank: SJR Q1
-- (16) ACM *Transactions on Software Engineering and Methodology (TOSEM)*, rank: SJR Q1
-- (12) Elsevier *Journal of System and Software (JSS)*, rank: SJR Q1
-- (8) Elsevier *Information and Software Technolog (INFSOF)*, rank: SJR Q1
-- (7) Wiley *Journal of Software: Evolution and Process (JSEP)*, rank: SJR Q2
-- (5) IEEE *Software*, rank: SJR Q2
-- (2) IEEE *Transactions on Affective Computing*, rank: SJR Q1
-- (1) ACM *Transactions on Internet Technologies (TOIT)*, rank: SJR Q1
+- (23) Springer *Journal of Empirical Software Engineering (EMSE)*, rank: [SJR Q1](https://www.scimagojr.com/journalsearch.php?q=18650&tip=sid&clean=0)
+- (19) IEEE *Transactions on Software Engineering (TSE)*, rank: [SJR Q1](https://www.scimagojr.com/journalsearch.php?q=18711&tip=sid&clean=0)
+- (16) ACM *Transactions on Software Engineering and Methodology (TOSEM)*, rank: [SJR Q1](https://www.scimagojr.com/journalsearch.php?q=18121&tip=sid&clean=0)
+- (12) Elsevier *Journal of System and Software (JSS)*, rank: [SJR Q1](https://www.scimagojr.com/journalsearch.php?q=19309&tip=sid&clean=0)
+- (8) Elsevier *Information and Software Technology (INFSOF)*, rank: [SJR Q1](https://www.scimagojr.com/journalsearch.php?q=18732&tip=sid&clean=0)
+- (7) Wiley *Journal of Software: Evolution and Process (JSEP)*, rank: [SJR Q2](https://www.scimagojr.com/journalsearch.php?q=21100205112&tip=sid&clean=0)
+- (5) IEEE *Software*, rank: [SJR Q2](https://www.scimagojr.com/journalsearch.php?q=18709&tip=sid&clean=0)
+- (2) IEEE *Transactions on Affective Computing*, rank: [SJR Q1](https://www.scimagojr.com/journalsearch.php?q=19700177034&tip=sid&clean=0)
+- (1) ACM *Transactions on Internet Technology (TOIT)*, rank: [SJR Q1](https://www.scimagojr.com/journalsearch.php?q=15773&tip=sid&clean=0)
 
 ## External Reviewer (Opponent) in Doctoral Defenses
 
@@ -558,7 +558,7 @@ My research primarily focuses on the intersection of Software Engineering and AI
 
 ## Program Co-Chair
 
-- *40th Int’l Conf. on Software Maintenance and Evolution (ICSME’24)*, Flagstaff, AZ, USA, Oct 2024, [iCORE rank: A](https://portal.core.edu.au/conf-ranks/676/)
+- *40th Int’l Conf. on Software Maintenance and Evolution (ICSME’24)*, Flagstaff, AZ, USA, Oct 2024, [ICORE rank: A](https://portal.core.edu.au/conf-ranks/676/)
 - *16th Int’l Conf. on Cooperative and Human Aspects of Software Engineering (CHASE’23)*, Melbourne, Australia, May 2023
 - *8th Int’l Workshop on Social Software Engineering (SSE’16)*, Seattle, WA, USA, Nov 14, 2016 – co-located with *FSE'16*
 - *1st Int’l Workshop on Trust in Virtual Teams: Theory and Tools*, San Antonio, TX, USA, Feb 24, 2013 – co-located with *CSCW'13*
