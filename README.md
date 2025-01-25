@@ -551,7 +551,8 @@ My research primarily focuses on the intersection of Software Engineering and AI
 
 ## External Reviewer (Opponent) in Doctoral Defenses
 
-- *Dec 2024*: Sai Datta Vishnubhotla's dissertation ``*Towards Investigating Capability Measures and Their Influence on Agile Team Climate*'' at Blekinge Institute of Technology (BTH), Sweden. ISSN 1653-2090, ISBN 978-91-7295-491-5
+- Blekinge Institute of Technology (BTH), Sweden
+- *Dec 2024*: Sai Datta Vishnubhotla's dissertation ``*Towards Investigating Capability Measures and Their Influence on Agile Team Climate,*'' ISSN 1653-2090, ISBN 978-91-7295-491-5
 
 # Events Organization
 
