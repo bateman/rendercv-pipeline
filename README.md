@@ -549,6 +549,10 @@ My research primarily focuses on the intersection of Software Engineering and AI
 - (2) IEEE *Transactions on Affective Computing*, rank: SJR Q1
 - (1) ACM *Transactions on Internet Technologies (TOIT)*, rank: SJR Q1
 
+## External Reviewer (Opponent) in Doctoral Defenses
+
+- *Dec 2024*: Sai Datta Vishnubhotla's dissertation ``*Towards Investigating Capability Measures and Their Influence on Agile Team Climate*'' at Blekinge Institute of Technology (BTH), Sweden. ISSN 1653-2090, ISBN 978-91-7295-491-5
+
 # Events Organization
 
 ## Program Co-Chair

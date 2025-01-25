@@ -606,6 +606,10 @@
         <li>(2) IEEE <em>Transactions on Affective Computing</em>, rank: SJR Q1</li>
         <li>(1) ACM <em>Transactions on Internet Technologies (TOIT)</em>, rank: SJR Q1</li>
         </ul>
+        <h2>External Reviewer (Opponent) in Doctoral Defenses</h2>
+        <ul>
+        <li><em>Dec 2024</em>: Sai Datta Vishnubhotla's dissertation ''<em>Towards Investigating Capability Measures and Their Influence on Agile Team Climate</em>'' at Blekinge Institute of Technology (BTH), Sweden. ISSN 1653-2090, ISBN 978-91-7295-491-5</li>
+        </ul>
         <h1>Events Organization</h1>
         <h2>Program Co-Chair</h2>
         <ul>
