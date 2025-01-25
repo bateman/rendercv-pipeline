@@ -19,7 +19,7 @@
         date: 2025
         journal: "Inf. Softw. Technol., vol. 178"
         doi: 10.1016/J.INFSOF.2024.107608
-        rank: SJR Q1
+        rank: [SJR Q1](https://www.scimagojr.com/journalsearch.php?q=18732&tip=sid&clean=0)
       - title: "A lot of talk and a badge: An exploratory analysis of personal achievements in GitHub"
         authors:
           - "***F. Calefato***"
@@ -28,7 +28,7 @@
         date: 2024
         journal: "Inf. Softw. Technol., vol. 176"
         doi: 10.1016/J.INFSOF.2024.107561
-        rank: SJR Q1
+        rank: [SJR Q1](https://www.scimagojr.com/journalsearch.php?q=18732&tip=sid&clean=0)
       - title: "Generative AI in Software Engineering Must Be Human-Centered: The Copenhagen Manifesto"
         authors:
           - D. Russo
@@ -69,7 +69,7 @@
         date: 2024
         journal: "J. Syst. Softw., vol. 216"
         doi: 10.1016/J.JSS.2024.112115
-        rank: SJR Q1
+        rank: [SJR Q1](https://www.scimagojr.com/journalsearch.php?q=19309&tip=sid&clean=0)
       - title: "Assessing the Use of AutoML for Data-Driven Software Engineering"
         authors:
           - "***F. Calefato***"
@@ -96,7 +96,7 @@
         date: 2022
         journal: "ACM Trans. Softw. Eng. Methodol., vol. 31, no. 3"
         doi: 10.1145/3491039
-        rank: SJR Q1
+        rank: [SJR Q1](https://www.scimagojr.com/journalsearch.php?q=18121&tip=sid&clean=0)
       - title: "What Makes Agile Software Development Agile?"
         authors:
           - M. Kuhrmann
@@ -149,7 +149,7 @@
         date: 2022
         journal: "IEEE Trans. Software Eng., vol. 48, no. 9"
         doi: 10.1109/TSE.2021.3099532
-        rank: SJR Q1
+        rank: [SJR Q1](https://www.scimagojr.com/journalsearch.php?q=18711&tip=sid&clean=0)
       - title: "Will you come back to contribute? Investigating the inactivity of OSS core developers in GitHub"
         authors:
           - "***F. Calefato***"
@@ -160,7 +160,7 @@
         date: 2022
         journal: "Empir. Softw. Eng., vol. 27, no. 3"
         doi: 10.1007/S10664-021-10012-6
-        rank: SJR Q1
+        rank: [SJR Q1](https://www.scimagojr.com/journalsearch.php?q=18650&tip=sid&clean=0)
       - title: "A Preliminary Investigation of MLOps Practices in GitHub"
         authors:
           - "***F. Calefato***"
@@ -196,7 +196,7 @@
         date: 2021
         journal: "Empir. Softw. Eng., vol. 26, no. 4"
         doi: 10.1007/S10664-021-09960-W
-        rank: SJR Q1
+        rank: [SJR Q1](https://www.scimagojr.com/journalsearch.php?q=18650&tip=sid&clean=0)
       - title: "Towards Productizing AI/ML Models: An Industry Perspective from Data Scientists"
         authors:
           - F. Lanubile
@@ -216,7 +216,7 @@
         date: 2020
         journal: "IEEE Softw., vol. 37, no. 3"
         doi: 10.1109/MS.2020.2968557
-        rank: SJR Q2
+        rank: [SJR Q2](https://www.scimagojr.com/journalsearch.php?q=18709&tip=sid&clean=0)
       - title: "Can We Use SE-specific Sentiment Analysis Tools in a Cross-Platform Setting?"
         authors:
           - N. Novielli
@@ -236,7 +236,7 @@
         date: 2019
         journal: "Inf. Softw. Technol., vol. 114"
         doi: 10.1016/J.INFSOF.2019.05.012
-        rank: SJR Q1
+        rank: [SJR Q1](https://www.scimagojr.com/journalsearch.php?q=18732&tip=sid&clean=0)
       - title: "RECODE: revision control for digital images"
         authors:
           - "***F. Calefato***"
@@ -245,7 +245,7 @@
         date: 2019
         journal: "Multim. Tools Appl., vol. 78, no. 23"
         doi: 10.1007/S11042-019-7735-9
-        rank: SJR Q2
+        rank: [SJR Q2](https://www.scimagojr.com/journalsearch.php?q=25627&tip=sid&clean=0)
       - title: "An empirical assessment of best-answer prediction models in technical Q&A sites"
         authors:
           - "***F. Calefato***"
@@ -254,7 +254,7 @@
         date: 2019
         journal: "Empir. Softw. Eng., vol. 24, no. 2"
         doi: 10.1007/S10664-018-9642-5
-        rank: SJR Q1
+        rank: [SJR Q1](https://www.scimagojr.com/journalsearch.php?q=18650&tip=sid&clean=0)
       - title: "Agile Collaboration for Distributed Teams [Software Technology]"
         authors:
           - "***F. Calefato***"
@@ -262,7 +262,7 @@
         date: 2019
         journal: "IEEE Softw., vol. 36, no. 1"
         doi: 10.1109/MS.2018.2874668
-        rank: SJR Q2
+        rank: [SJR Q2](https://www.scimagojr.com/journalsearch.php?q=18709&tip=sid&clean=0)
       - title: "How to ask for technical help? Evidence-based guidelines for writing questions on Stack Overflow"
         authors:
           - "***F. Calefato***"
@@ -271,7 +271,7 @@
         date: 2018
         journal: "Inf. Softw. Technol., vol. 94"
         doi: 10.1016/J.INFSOF.2017.10.009
-        rank: SJR Q1
+        rank: [SJR Q1](https://www.scimagojr.com/journalsearch.php?q=18732&tip=sid&clean=0)
       - title: "Investigating Crowd Creativity in Online Music Communities"
         authors:
           - "***F. Calefato***"
@@ -291,7 +291,7 @@
         date: 2016
         journal: "Empir. Softw. Eng., vol. 21, no. 3"
         doi: 10.1007/S10664-015-9372-X
-        rank: SJR Q1
+        rank: [SJR Q1](https://www.scimagojr.com/journalsearch.php?q=18650&tip=sid&clean=0)
       - title: "Moving to Stack Overflow: Best-Answer Prediction in Legacy Developer Forums"
         authors:
           - "***F. Calefato***"
@@ -309,7 +309,7 @@
         date: 2015
         journal: "Electron. Commer. Res., vol. 15, no. 4"
         doi: 10.1007/S10660-015-9194-3
-        rank: SJR Q2
+        rank: [SJR Q2](https://www.scimagojr.com/journalsearch.php?q=145669&tip=sid&clean=0)
       - title: "Cost Savings in Global Software Engineering: Where's the Evidence?"
         authors:
           - D. Smite
@@ -318,7 +318,7 @@
         date: 2015
         journal: "IEEE Softw., vol. 32, no. 4"
         doi: 10.1109/MS.2015.102
-        rank: SJR Q2
+        rank: [SJR Q2](https://www.scimagojr.com/journalsearch.php?q=18709&tip=sid&clean=0)
       - title: "Mining Successful Answers in Stack Overflow"
         authors:
           - "***F. Calefato***"
@@ -338,7 +338,7 @@
         date: 2014
         journal: "IEEE Softw., vol. 31, no. 1"
         doi: 10.1109/MS.2014.14
-        rank: SJR Q2
+        rank: [SJR Q2](https://www.scimagojr.com/journalsearch.php?q=18709&tip=sid&clean=0)
       - title: "An empirical simulation-based study of real-time speech translation for multilingual global project teams"
         authors:
           - "***F. Calefato***"
@@ -357,7 +357,7 @@
         date: 2013
         journal: "IEEE Softw., vol. 30, no. 2"
         doi: 10.1109/MS.2013.30
-        rank: SJR Q2
+        rank: [SJR Q2](https://www.scimagojr.com/journalsearch.php?q=18709&tip=sid&clean=0)
       - title: "Computer-mediated communication to support distributed requirements elicitations and negotiations tasks"
         authors:
           - "***F. Calefato***"
@@ -366,7 +366,7 @@
         date: 2012
         journal: "Empir. Softw. Eng., vol. 17, no. 6"
         doi: 10.1007/S10664-011-9179-3
-        rank: SJR Q1
+        rank: [SJR Q1](https://www.scimagojr.com/journalsearch.php?q=18650&tip=sid&clean=0)
       - title: "Assessing the impact of real-time machine translation on requirements meetings: a replicated experiment"
         authors:
           - "***F. Calefato***"
@@ -393,7 +393,7 @@
         date: 2009
         journal: "Softw. Pract. Exp., vol. 39, no. 15"
         doi: 10.1002/SPE.937
-        rank: SJR Q2
+        rank: [SJR Q2](https://www.scimagojr.com/journalsearch.php?q=20007&tip=sid&clean=0)
       - title: "A Controlled Experiment on the Effects of Synchronicity in Remote Inspection Meetings"
         authors:
           - "***F. Calefato***"
