@@ -101,7 +101,7 @@ My research primarily focuses on the intersection of Software Engineering and AI
 - Scopus: *h*-index 21, 1,500+ citations
 # Selected Publications
 
-## On the Self-admitted Use of LLMs in Open Source Software Projects  (2025 - under review) 
+## Self-Admitted GenAI Usage: A Mixed Methods Study of Software Projects on GitHub  (2025 - under review) 
 - T. Xiao, Y. Fan, ***F. Calefato***, R. Kula, C. Treude, H. Hata, S. Baltes
 - IEEE Transactions on Software Engineering 
 
@@ -762,7 +762,7 @@ My research primarily focuses on the intersection of Software Engineering and AI
 
 # Software
 
-## BehaViz™
+## BehaViz®
 
 - The flagship product of PeoplewareAI focused on behavioral data analysis and emotion recognition from written text
 - Features customizable emotion recognition through both custom annotated datasets and classification models for improved accuracy and flexibility

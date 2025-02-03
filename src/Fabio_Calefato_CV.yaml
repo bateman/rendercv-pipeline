@@ -213,7 +213,8 @@ cv:
     - label: Scopus
       details: '*h*-index 21, 1,500+ citations'
     selected_publications:
-    - title: On the Self-admitted Use of LLMs in Open Source Software Projects
+    - title: 'Self-Admitted GenAI Usage: A Mixed Methods Study of Software Projects
+        on GitHub'
       authors:
       - T. Xiao
       - Y. Fan
@@ -1337,7 +1338,7 @@ cv:
       location: University of Victoria, Canada
       date: 2016-11-24
     software:
-    - name: BehaViz™
+    - name: BehaViz®
       date: ''
       highlights:
       - The flagship product of PeoplewareAI focused on behavioral data analysis and
