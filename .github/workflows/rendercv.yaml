@@ -54,9 +54,9 @@ jobs:
             ifmtarg
             adjustbox
             lipsum
-      - name: Install PDFtk
+      - name: Install PDFtk & Biber
         run: |
-          sudo apt-get install pdftk -y
+          sudo apt-get install pdftk biber -y
       - name: Install RenderCV
         run: |
           pip install -r requirements.txt
