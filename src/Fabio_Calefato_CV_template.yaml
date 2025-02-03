@@ -415,7 +415,7 @@ cv:
           - "(1) ACM *Transactions on Internet Technology (TOIT)*, rank: [SJR Q1](https://www.scimagojr.com/journalsearch.php?q=15773&tip=sid&clean=0)"
       - name: External Reviewer (Opponent) in Doctoral Defenses
         highlights:
-          - "*Dec 2024*: Sai Datta Vishnubhotla's dissertation ``*Towards Investigating Capability 
+          - "*Dec 2024*: Sai Datta Vishnubhotla's dissertation ``*Towards Investigating Capability
             Measures and Their Influence on Agile Team Climate*'' at Blekinge Institute of Technology (BTH), Sweden, ISSN 1653-2090, ISBN 978-91-7295-491-5"
 
     events_organization:
@@ -620,10 +620,8 @@ cv:
       - bullet:
           "*10th Int'l Conf. on Global Software Engineering (ICGSE'15)*, Ciudad Real, Spain, 13-16 July 2015,
           [ICORE rank: C](https://portal.core.edu.au/conf-ranks/650/)"
-      - bullet: 
-          "*7th Software Quality Days (SWQD'15)*, Vienna, Austria, 20-23 Jan. 2015"
-      - bullet: 
-          "*6th Software Quality Days (SWQD'14)*, Vienna, Austria, 14-16 Jan. 2014"
+      - bullet: "*7th Software Quality Days (SWQD'15)*, Vienna, Austria, 20-23 Jan. 2015"
+      - bullet: "*6th Software Quality Days (SWQD'14)*, Vienna, Austria, 14-16 Jan. 2014"
       - bullet:
           "*8th Int'l Conf. on Global Software Engineering (ICGSE'13)*, Bari, Italy, 26-29 Aug. 2013,
           [ICORE rank: C](https://portal.core.edu.au/conf-ranks/650/)"
@@ -740,7 +738,7 @@ cv:
         date: 2016-11-24
 
     software:
-      - name: BehaViz™
+      - name: BehaViz®
         date: ""
         highlights:
           - The flagship product of PeoplewareAI focused on behavioral data analysis and emotion
