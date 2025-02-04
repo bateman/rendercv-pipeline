@@ -213,6 +213,30 @@ def merge_bib_files(dblp_file, additional_file, output_file):
         f.write(additional_content)
 
 
+def find_and_remove_duplicates(publications, additional_entries):
+    # if a duplicate is found, the entry in file "not_in_dblp.bib" is the one to remove
+    # this is because the entry in "dblp.bib" is the most complete one
+
+    # first find all duplicate entries couples
+    duplicates = []
+    for i, pub1 in enumerate(publications["publications"]):
+        for j, pub2 in enumerate(publications["publications"]):
+            if i != j and pub1["title"] == pub2["title"]:
+                duplicates.append((i, j))
+
+    # load entries in "not_in_dblp.bib"
+    not_in_dblp = parse_bib(additional_entries)
+
+    # then check which is in "not_in_dblp" and remove it
+    for i, j in duplicates:
+        if publications["publications"][i] in not_in_dblp["publications"]:
+            publications["publications"].pop(i)
+        elif publications["publications"][j] in not_in_dblp["publications"]:
+            publications["publications"].pop(j)
+
+    return publications
+
+
 if __name__ == "__main__":
     # author's DBLP URL
     dblp_url = "https://dblp.org/pid/48/5662.bib?param=1"
@@ -240,6 +264,9 @@ if __name__ == "__main__":
         merge_bib_files(dblp_file, additional_entries, all_pubblications_bib_file)
         filter_bib(all_pubblications_bib_file)
         all_publications = parse_bib(all_pubblications_bib_file)
+        all_publications = find_and_remove_duplicates(
+            all_publications, additional_entries
+        )
         with open(all_pubblications_yaml_file, "w") as f:
             f.write(format_yaml_content(all_publications, section="publications"))
         selected_publications = parse_bib(selected_pubblications_bib_file)

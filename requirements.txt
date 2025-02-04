@@ -5,3 +5,5 @@ requests>=2.32.3
 ruff>=0.8.5
 PyPDF2>=3.0.1
 reportlab>=4.2.5
+requests-html>=0.10.0
+lxml_html_clean>=0.4.1

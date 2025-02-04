@@ -175,6 +175,7 @@ project/update_cv: python  ## Update CV input file with selected bibliography
 
 project/build_cv: | project/update_cv  ## Build pdf file of CV
 	@echo -e "$(CYAN)\nBuild CV...$(RESET)" 
+	@$(PYTHON) $(SRC)/updatebibliometrics.py
 	@$(RENDERCV) render src/${CV_FILE}.yaml --pdf-path ${CV_FILE}.pdf --markdown-path README.md --latex-path ${CV_FILE}.tex --html-path ${CV_FILE}.html --dont-generate-png --use-local-latex-command pdflatex
 	@$(PYTHON) $(SRC)/genmd.py
 	@echo -e "$(GREEN)CV built.$(RESET)"
