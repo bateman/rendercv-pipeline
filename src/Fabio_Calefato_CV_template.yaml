@@ -98,9 +98,9 @@ cv:
 
     bibliometrics:
       - label: Google Scholar
-        details: "*h*-index 30, 3,150+ citations"
+        details: "*h*-index 30, 3,195 citations"
       - label: Scopus
-        details: "*h*-index 21, 1,500+ citations"
+        details: "*h*-index 21, 1,598 citations"
 
     selected_publications:
       ###bibliography/selected_publications.yaml###
