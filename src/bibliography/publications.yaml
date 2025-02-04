@@ -816,15 +816,6 @@
           - others
         date: 2011
         journal: "Proc. 6th Int. Conf. Softw. Eng. Adv.(ICSEA), Barcelona, Spain, 23-28 Oct. 2011"
-      - title: "Augmenting social awareness in a collaborative development environment"
-        authors:
-          - "***F. Calefato***"
-          - F. Lanubile
-          - N. Sanitate
-          - G. Santoro
-        date: 2011
-        journal: "Proc. of the 4th Int'l Workshop on Social Software Engineering (SSE '11), Szeged, Hungary, 5 Sept 2011"
-        doi: 10.1145/2024645.2024656
       - title: "Communication Media Selection for Remote Interaction of Ad Hoc Groups"
         authors:
           - "***F. Calefato***"
