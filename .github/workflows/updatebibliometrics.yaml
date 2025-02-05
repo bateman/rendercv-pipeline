@@ -1,4 +1,4 @@
-name: Update Bibliography
+name: Update Bibliometrics
 
 on:
   workflow_dispatch:
@@ -22,9 +22,11 @@ jobs:
           pip install -r requirements.txt
 
       - name: Update bibliometrics
+        id: update_bibliometrics
         run: python src/updatebibliometrics.py
 
       - name: Trigger rendercv workflow
+        if: steps.update_bibliometrics.outputs.changes_found == 'true'
         uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.PAT_TOKEN }}  # PAT required for workflow-to-workflow communication
