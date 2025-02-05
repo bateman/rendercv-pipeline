@@ -72,6 +72,15 @@
         date: 2024
         journal: "SoftwareX, vol. 28"
         doi: 10.1016/J.SOFTX.2024.101959
+      - title: "An MLOps Approach for Deploying Machine Learning Models in Healthcare Systems"
+        authors:
+          - G. Mallardi
+          - "***F. Calefato***"
+          - L. Quaranta
+          - F. Lanubile
+        date: 2024
+        journal: "IEEE International Conference on Bioinformatics and Biomedicine, BIBM 2024, Lisbon, Portugal, December 3-6, 2024"
+        doi: 10.1109/BIBM62325.2024.10822603
       - title: "Continuous Quality Improvement of AI-based Systems: the QualAI Project"
         authors:
           - N. Novielli
