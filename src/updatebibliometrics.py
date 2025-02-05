@@ -19,7 +19,7 @@ def scrape_google_scholar(username, session):
     return h_index, citations
 
 
-if __name__ == "__main__":
+def main():
     # Load default values from template CV file
     cv_template_file = os.path.join("src", "Fabio_Calefato_CV_template.yaml")
     with open(cv_template_file, "r") as f:
@@ -46,7 +46,7 @@ if __name__ == "__main__":
     h_index_gs, citations_gs = scrape_google_scholar(google_scholar, session)
     print(f"Google Scholar: h-index {h_index_gs}, citations {citations_gs}")
 
-    scopus = "8303001500"  # cv["bibliometrics"]["scopus"]
+    # scopus = "8303001500"  # cv["bibliometrics"]["scopus"]
     # h_index_scopus, citations_scopus = scrape_scopus(scopus, session)
     print(
         f"Scopus: h-index {default_scopus_h_index}, citations {default_scopus_citations}"
@@ -65,3 +65,12 @@ if __name__ == "__main__":
     ]
     with open(cv_file, "w") as f:
         yaml.dump(cv, f, sort_keys=False, allow_unicode=True, default_flow_style=False)
+
+    changes_found = citations_gs == default_gs_citations or h_index_gs == default_gs_h_index 
+    with open(os.environ['GITHUB_OUTPUT'], 'a') as fh:
+        print(f'changes_found={changes_found}', file=fh)
+    return changes_found
+
+
+if __name__ == "__main__":
+    main()
