@@ -66,9 +66,13 @@ def main():
     with open(cv_file, "w") as f:
         yaml.dump(cv, f, sort_keys=False, allow_unicode=True, default_flow_style=False)
 
-    changes_found = citations_gs == default_gs_citations or h_index_gs == default_gs_h_index 
-    with open(os.environ['GITHUB_OUTPUT'], 'a') as fh:
-        print(f'changes_found={changes_found}', file=fh)
+    github_output = os.environ.get('GITHUB_OUTPUT')
+    if github_output:
+        changes_found = (
+            citations_gs == default_gs_citations or h_index_gs == default_gs_h_index
+        )
+        with open(github_output, "a") as fh:
+            print(f'changes_found={changes_found}', file=fh)
     return changes_found
 
 
