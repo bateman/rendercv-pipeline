@@ -12,8 +12,8 @@ def scrape_google_scholar(username, session):
     response.html.render(timeout=30, sleep=5)
     if response.status_code == 200:
         elements = response.html.find("td.gsc_rsb_std", first=False)
-        h_index = elements[0].text
-        citations = elements[2].text
+        citations = elements[0].text
+        h_index = elements[2].text
     else:
         print("Error in request:", response.status_code)
     return h_index, citations
@@ -73,7 +73,7 @@ def main():
         )
         with open(github_output, "a") as fh:
             print(f'changes_found={changes_found}', file=fh)
-    return changes_found
+        return changes_found
 
 
 if __name__ == "__main__":
