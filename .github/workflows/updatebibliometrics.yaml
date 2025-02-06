@@ -6,7 +6,7 @@ on:
     - cron: '0 2 * * *'
 
 jobs:
-  update-biblio:
+  update-bibliometrics:
     runs-on: ubuntu-latest
     steps:
       - name: Check out
