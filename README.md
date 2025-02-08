@@ -97,7 +97,7 @@ My research primarily focuses on the intersection of Software Engineering and AI
 - [FABBR 2017 Award](https://www.anvur.it/wp-content/uploads/2018/05/Beneficiari_FFABR_Ricercatori.pdf): *Winner of the national selection procedure `Fondo per il finanziamento delle attività base di ricerca (FFABR) 2017,' established by the Italian Ministry of University and Research (MUR) and intended for the annual funding of basic research activities of associate professors and researchers*
 # Bibliometrics
 
-- Google Scholar: *h*-index 30, 3195 citations
+- Google Scholar: *h*-index 30, 3196 citations
 - Scopus: *h*-index 21, 1,598 citations
 # Selected Publications
 
