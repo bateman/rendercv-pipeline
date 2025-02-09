@@ -23,7 +23,7 @@ jobs:
 
       - name: Update bibliometrics
         id: update_bibliometrics
-        run: python src/updatebibliometrics.py
+        run: python src/update_bibliometrics.py
 
       - name: Trigger rendercv workflow
         if: steps.update_bibliometrics.outputs.changes_found == 'true'
