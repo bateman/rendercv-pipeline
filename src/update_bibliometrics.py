@@ -1,6 +1,7 @@
 import os
 import yaml
 from requests_html import HTMLSession
+from scopus_scraper import ScopusScraper
 
 
 def scrape_google_scholar(username, session):
@@ -46,11 +47,11 @@ def main():
     h_index_gs, citations_gs = scrape_google_scholar(google_scholar, session)
     print(f"Google Scholar: h-index {h_index_gs}, citations {citations_gs}")
 
-    # scopus = "8303001500"  # cv["bibliometrics"]["scopus"]
-    # h_index_scopus, citations_scopus = scrape_scopus(scopus, session)
-    print(
-        f"Scopus: h-index {default_scopus_h_index}, citations {default_scopus_citations}"
-    )
+    scopus_author_id = "8303001500"  # cv["bibliometrics"]["scopus"]
+    result = ScopusScraper().scrape_author(scopus_author_id)
+    h_index_scopus = result["h_index"]
+    citations_scopus = result["citations"]
+    print(f"Scopus: h-index {h_index_scopus}, citations {citations_scopus}")
 
     # Update CV file
     cv["cv"]["sections"]["bibliometrics"] = [
@@ -60,19 +61,19 @@ def main():
         },
         {
             "label": "Scopus",
-            "details": f"*h*-index {default_scopus_h_index}, {default_scopus_citations} citations",
+            "details": f"*h*-index {h_index_scopus if h_index_scopus is not None else default_scopus_h_index}, {citations_scopus if citations_scopus is not None else default_scopus_citations} citations",
         },
     ]
     with open(cv_file, "w") as f:
         yaml.dump(cv, f, sort_keys=False, allow_unicode=True, default_flow_style=False)
 
-    github_output = os.environ.get('GITHUB_OUTPUT')
+    github_output = os.environ.get("GITHUB_OUTPUT")
     if github_output:
         changes_found = (
             citations_gs == default_gs_citations or h_index_gs == default_gs_h_index
         )
         with open(github_output, "a") as fh:
-            print(f'changes_found={changes_found}', file=fh)
+            print(f"changes_found={changes_found}", file=fh)
         return changes_found
 
 
