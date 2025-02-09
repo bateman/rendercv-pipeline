@@ -74,7 +74,7 @@ jobs:
           cd ..
           python src/parsebib.py
           python src/pubmerger.py
-          python src/updatebibliometrics.py
+          python src/update_bibliometrics.py
           rendercv render src/$cv_file --pdf-path ${cv_file%.yaml}.pdf --markdown-path README.md --latex-path ${cv_file%.yaml}.tex --html-path ${cv_file%.yaml}.html --dont-generate-png --use-local-latex-command "pdflatex"
           python src/genmd.py
           pdflatex Fabio_Calefato_Publications
