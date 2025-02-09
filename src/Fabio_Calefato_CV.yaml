@@ -211,7 +211,7 @@ cv:
     - label: Google Scholar
       details: '*h*-index 30, 3198 citations'
     - label: Scopus
-      details: '*h*-index 21, 1,598 citations'
+      details: '*h*-index 21, 1600 citations'
     selected_publications:
     - title: 'Self-Admitted GenAI Usage: A Mixed Methods Study of Software Projects
         on GitHub'

@@ -98,7 +98,7 @@ My research primarily focuses on the intersection of Software Engineering and AI
 # Bibliometrics
 
 - Google Scholar: *h*-index 30, 3198 citations
-- Scopus: *h*-index 21, 1,598 citations
+- Scopus: *h*-index 21, 1600 citations
 # Selected Publications
 
 ## Self-Admitted GenAI Usage: A Mixed Methods Study of Software Projects on GitHub  (2025 - under review) 
