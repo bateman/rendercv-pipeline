@@ -209,9 +209,9 @@ cv:
         of basic research activities of associate professors and researchers*'
     bibliometrics:
     - label: Google Scholar
-      details: '*h*-index 30, 3198 citations'
+      details: '*h*-index 30, 3204 citations'
     - label: Scopus
-      details: '*h*-index 21, 1600 citations'
+      details: '*h*-index 21, 1601 citations'
     selected_publications:
     - title: 'Self-Admitted GenAI Usage: A Mixed Methods Study of Software Projects
         on GitHub'
