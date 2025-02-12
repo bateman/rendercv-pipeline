@@ -124,7 +124,7 @@
         </ul>
         <h1>Bibliometrics</h1>
         <ul>
-        <li>Google Scholar: <em>h</em>-index 30, 3205 citations</li>
+        <li>Google Scholar: <em>h</em>-index 30, 3204 citations</li>
         <li>Scopus: <em>h</em>-index 21, 1601 citations</li>
         </ul>
         <h1>Selected Publications</h1>
