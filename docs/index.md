@@ -124,8 +124,8 @@
         </ul>
         <h1>Bibliometrics</h1>
         <ul>
-        <li>Google Scholar: <em>h</em>-index 30, 3206 citations</li>
-        <li>Scopus: <em>h</em>-index 21, 1601 citations</li>
+        <li>Google Scholar: <em>h</em>-index 30, 3209 citations</li>
+        <li>Scopus: <em>h</em>-index 21, 1602 citations</li>
         </ul>
         <h1>Selected Publications</h1>
         <h2>Self-Admitted GenAI Usage: A Mixed Methods Study of Software Projects on GitHub  (2025 - under review)</h2>
